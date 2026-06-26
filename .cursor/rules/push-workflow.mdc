@@ -1,0 +1,16 @@
+---
+description: When the user says "push", deploy to GitHub and Vercel
+alwaysApply: true
+---
+
+# Push workflow (SMB Health Supply)
+
+When the user says **push**, they mean both:
+
+1. **GitHub** — commit changes, push to `origin` on the default branch
+2. **Vercel** — deploy production (`vercel deploy --prod` from `site/`, or rely on Vercel Git integration if a push triggers deploy)
+
+Do not push to only one unless the user explicitly asks for GitHub-only or Vercel-only.
+
+Repository: `lowdifficulty/smb-health-supply`
+Deploy directory: `site/`
