@@ -515,7 +515,21 @@ section { padding: 4rem 0; }
   gap: 2rem;
 }
 
-.footer-brand img { height: 56px; width: auto; margin-bottom: 1rem; filter: brightness(0) invert(1); opacity: 0.95; }
+.footer-logo-wrap {
+  display: inline-flex;
+  align-items: center;
+  background: var(--white);
+  padding: 0.65rem 1rem;
+  border-radius: var(--radius-sm);
+  margin-bottom: 1rem;
+}
+
+.footer-brand img {
+  height: 44px;
+  width: auto;
+  filter: none;
+  opacity: 1;
+}
 
 .footer-brand p { font-size: 0.95rem; max-width: 32ch; }
 
