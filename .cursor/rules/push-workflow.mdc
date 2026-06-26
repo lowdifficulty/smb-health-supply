@@ -7,10 +7,13 @@ alwaysApply: true
 
 When the user says **push**, they mean both:
 
-1. **GitHub** — commit changes, push to `origin` on the default branch
-2. **Vercel** — deploy production (`vercel deploy --prod` from `site/`, or rely on Vercel Git integration if a push triggers deploy)
+1. **GitHub** — stage, commit, and `git push origin main`
+2. **Vercel** — `vercel deploy --prod` from `site/`
 
 Do not push to only one unless the user explicitly asks for GitHub-only or Vercel-only.
 
-Repository: `lowdifficulty/smb-health-supply`
-Deploy directory: `site/`
+- Repository: https://github.com/lowdifficulty/smb-health-supply
+- Deploy directory: `site/`
+- Production URL: https://smbhealthsupply.com
+
+After GitHub is connected in Vercel (Settings → Git), pushes to `main` may auto-deploy; still run `vercel deploy --prod` from `site/` if auto-deploy is not enabled.
