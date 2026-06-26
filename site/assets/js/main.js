@@ -4,7 +4,6 @@
   const modal = document.getElementById("inquiry-modal");
   const modalForm = document.getElementById("inquiry-form");
   const modalSuccess = document.getElementById("form-success");
-  const interestField = document.getElementById("interest");
 
   if (menuToggle && navMobile) {
     menuToggle.addEventListener("click", function () {
@@ -24,27 +23,12 @@
     });
   }
 
-  function openModal(preset) {
+  function openModal() {
     if (!modal) return;
     modal.classList.add("open");
     document.body.style.overflow = "hidden";
     if (modalForm) modalForm.classList.remove("hidden");
     if (modalSuccess) modalSuccess.classList.remove("show");
-    if (interestField && preset) {
-      const options = Array.from(interestField.options).map(function (o) { return o.value; });
-      const map = {
-        Products: "Product information",
-        "Product catalog": "Product information",
-        "Sales contact": "Sales contact",
-        Partnership: "Partnership / distribution",
-        "Partnership application": "Partnership / distribution",
-        "Get started": "General inquiry",
-        "Learn more": "General inquiry",
-        "Request information": "Product information"
-      };
-      const mapped = map[preset] || preset;
-      interestField.value = options.includes(mapped) ? mapped : "General inquiry";
-    }
     const firstInput = modal.querySelector("input:not([type=hidden])");
     if (firstInput) setTimeout(function () { firstInput.focus(); }, 100);
   }
@@ -58,7 +42,7 @@
   document.querySelectorAll(".open-form").forEach(function (btn) {
     btn.addEventListener("click", function (e) {
       e.preventDefault();
-      openModal(btn.dataset.interest || "");
+      openModal();
     });
   });
 
@@ -94,8 +78,6 @@
             email: data.email,
             phone: data.phone,
             organization: data.organization,
-            role: data.role,
-            interest: data.interest,
             message: data.message || "—"
           })
         });
