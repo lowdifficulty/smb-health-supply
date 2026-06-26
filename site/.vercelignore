@@ -1,0 +1,4 @@
+wp-content/plugins/**
+wp-content/themes/**
+wp-content/uploads/elementor/**
+wp-includes/**
