@@ -1,0 +1,13 @@
+{
+  "name": "smb-health-supply",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "local": "node scripts/dev-server.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

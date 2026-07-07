@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In — Wound Care Onboarding | SMB Health Supply</title>
+  <meta name="description" content="Sign in to your wound care practice onboarding dashboard.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/onboarding.css">
+  <link rel="icon" href="/wp-content/uploads/2026/01/cropped-logo-1-r9x4pqcr1en5j8nwpsmgbfyjwief9dy49ety9lo82s-1-1-32x32.png">
+</head>
+<body class="onboarding-page">
+  <header class="onboarding-header">
+    <div class="container onboarding-header-inner">
+      <a href="/" class="logo"><img src="/wp-content/uploads/2026/01/logo-1-r9x4pqcr1en5j8nwpsmgbfyjwief9dy49ety9lo82s-1.png" alt="SMB Health Supply"></a>
+      <nav class="onboarding-nav" aria-label="Onboarding">
+        <a href="/">Main site</a>
+        <a href="/onboarding/register/">Create account</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="auth-shell">
+    <div class="container">
+      <div class="auth-card">
+        <h1>Welcome back</h1>
+        <p class="auth-lead">Sign in to continue your wound care launch checklist. Your progress is saved to your account.</p>
+
+        <div class="auth-error" id="auth-error" hidden role="alert"></div>
+
+        <form id="login-form">
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label for="password">Password *</label>
+            <input type="password" id="password" name="password" required autocomplete="current-password">
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Sign in</button>
+        </form>
+
+        <p class="auth-switch">Need an account? <a href="/onboarding/register/">Register here</a></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="/assets/js/onboarding-auth.js"></script>
+</body>
+</html>

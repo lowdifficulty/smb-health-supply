@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wound Care Onboarding Dashboard | SMB Health Supply</title>
+  <meta name="description" content="Track the core steps needed to launch a wound care practice and see your first patient.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/onboarding.css">
+  <link rel="icon" href="/wp-content/uploads/2026/01/cropped-logo-1-r9x4pqcr1en5j8nwpsmgbfyjwief9dy49ety9lo82s-1-1-32x32.png">
+</head>
+<body class="onboarding-page">
+  <header class="onboarding-header">
+    <div class="container onboarding-header-inner">
+      <a href="/" class="logo"><img src="/wp-content/uploads/2026/01/logo-1-r9x4pqcr1en5j8nwpsmgbfyjwief9dy49ety9lo82s-1.png" alt="SMB Health Supply"></a>
+      <nav class="onboarding-nav" aria-label="Onboarding">
+        <a href="/">Main site</a>
+        <button type="button" class="btn-link" id="logout-btn">Sign out</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="dashboard-shell">
+    <div class="container">
+      <section class="dashboard-header" aria-labelledby="dashboard-title">
+        <div class="dashboard-header-top">
+          <div>
+            <h1 id="dashboard-title">Wound Care Onboarding Dashboard</h1>
+            <p class="dashboard-subtitle" id="dashboard-subtitle">Track the core steps needed to launch a wound care practice and see your first patient.</p>
+            <span class="role-badge" id="role-badge" hidden></span>
+          </div>
+          <div class="user-meta">
+            <strong id="user-name">Loading…</strong>
+            <span id="user-org"></span>
+          </div>
+        </div>
+
+        <div class="overall-progress-block">
+          <div class="overall-progress-row">
+            <div>
+              <div class="overall-percent" id="overall-percent">0%</div>
+              <div class="tasks-summary" id="tasks-summary">Completed 0 of 0 tasks</div>
+            </div>
+            <span class="status-badge status-not-started" id="status-badge">Not Started</span>
+          </div>
+          <div class="progress-bar" aria-hidden="true"><div class="progress-fill" id="overall-bar" style="width: 0%"></div></div>
+        </div>
+      </section>
+
+      <section class="next-step-card" id="next-step-card" aria-labelledby="next-step-label">
+        <div class="next-step-label" id="next-step-label">Next step</div>
+        <h2 id="next-step-text">Loading checklist…</h2>
+        <p class="next-step-category" id="next-step-category"></p>
+      </section>
+
+      <div class="dashboard-toolbar">
+        <input type="search" class="search-input" id="checklist-search" placeholder="Search checklist items…" aria-label="Search checklist items">
+        <div class="toolbar-actions">
+          <button type="button" class="btn btn-outline" id="print-checklist-btn">Print checklist</button>
+          <button type="button" class="btn btn-danger-outline" id="reset-progress-btn">Reset progress</button>
+        </div>
+        <span class="save-status" id="save-status" aria-live="polite"></span>
+      </div>
+
+      <div class="categories-grid" id="categories-root" aria-live="polite"></div>
+
+      <p class="dashboard-footer-note">This dashboard is a launch checklist and does not replace legal, credentialing, billing, or compliance advice.</p>
+    </div>
+  </main>
+
+  <script src="/assets/js/checklist-data.js"></script>
+  <script src="/assets/js/onboarding-auth.js"></script>
+  <script src="/assets/js/onboarding-dashboard.js"></script>
+</body>
+</html>
