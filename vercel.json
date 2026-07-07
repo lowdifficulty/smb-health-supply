@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    {
+      "source": "/((?!api/|assets/|wp-content/|favicon\\.svg|icons\\.svg|apple-touch-icon\\.png|og-image\\.png).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "redirects": [
+    { "source": "/about/", "destination": "/about", "permanent": true },
+    { "source": "/products/", "destination": "/products", "permanent": true },
+    { "source": "/partner-with-us/", "destination": "/partner-with-us", "permanent": true },
+    { "source": "/contact/", "destination": "/contact", "permanent": true },
+    { "source": "/privacy-policy/", "destination": "/privacy-policy", "permanent": true },
+    { "source": "/terms-of-service/", "destination": "/terms-of-service", "permanent": true }
+  ]
+}
