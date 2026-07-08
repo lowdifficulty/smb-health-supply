@@ -1,17 +1,35 @@
 {
+  "framework": null,
+  "buildCommand": "node scripts/build-deploy.mjs",
+  "installCommand": "npm install",
+  "outputDirectory": "deploy",
+  "cleanUrls": false,
+  "trailingSlash": true,
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" },
     {
-      "source": "/((?!api/|assets/|wp-content/|favicon\\.svg|icons\\.svg|apple-touch-icon\\.png|og-image\\.png).*)",
-      "destination": "/index.html"
+      "source": "/(login|dashboard|tracking|billing|catalog|order|ivr|accounts|alerts|asg-data|asg|skin-substitutes)(/.*)?",
+      "destination": "/portal/index.html"
     }
   ],
-  "redirects": [
-    { "source": "/about/", "destination": "/about", "permanent": true },
-    { "source": "/products/", "destination": "/products", "permanent": true },
-    { "source": "/partner-with-us/", "destination": "/partner-with-us", "permanent": true },
-    { "source": "/contact/", "destination": "/contact", "permanent": true },
-    { "source": "/privacy-policy/", "destination": "/privacy-policy", "permanent": true },
-    { "source": "/terms-of-service/", "destination": "/terms-of-service", "permanent": true }
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/portal/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/wp-content/uploads/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
   ]
 }

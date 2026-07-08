@@ -1,6 +1,9 @@
 import PageHeader from '../../components/PageHeader'
 import AsgDataView from '../../components/AsgDataView'
 import AsgPaymentDueBanner from '../../components/AsgPaymentDueBanner'
+import AsgDashboardAnalytics from '../../components/AsgDashboardAnalytics'
+import AsgRemitInvoicePanel from '../../components/AsgRemitInvoicePanel'
+import AsgRemitReconciliationPanel from '../../components/AsgRemitReconciliationPanel'
 import { usePortal } from '../../context/PortalContext'
 import { getClientById } from '../../lib/storage'
 
@@ -20,6 +23,12 @@ export default function AsgDashboard() {
       />
 
       <AsgPaymentDueBanner />
+
+      <AsgDashboardAnalytics />
+
+      <AsgRemitReconciliationPanel />
+
+      <AsgRemitInvoicePanel />
 
       <AsgDataView />
     </div>

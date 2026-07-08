@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { Redis } from '@upstash/redis'
-import { REDIS_LIVE_DATA_KEY, REDIS_LAST_REPORT_KEY } from './lib/asg-sheet/config.js'
+import { REDIS_LIVE_DATA_KEY, REDIS_LAST_REPORT_KEY } from '../lib/asg-sheet/config.js'
 
 function getRedis(): Redis | null {
   const url = process.env.UPSTASH_REDIS_REST_URL ?? process.env.KV_REST_API_URL

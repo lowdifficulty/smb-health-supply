@@ -34,6 +34,10 @@ function buildClaims(parsed: AsgClaimRow[]) {
       leftToRemitDollars: row.leftToRemitDollars,
       leftToRemitSqCm: round2(row.unitsBilled - remitUnits),
       notes: '',
+      billedDate: row.billedDate,
+      primaryInvoiced: row.primaryInvoiced,
+      secondaryInvoiced: row.secondaryInvoiced,
+      invoiceNumber: row.invoiceNumber,
     }
   })
 }
@@ -50,6 +54,7 @@ function buildRemitEvents(claims: ReturnType<typeof buildClaims>) {
     remitPdf: { label: string; url: string }
     billedAmount: number
     unitsBilled: number
+    invoiceNumber: string
   }> = []
 
   for (const claim of claims) {
@@ -65,6 +70,7 @@ function buildRemitEvents(claims: ReturnType<typeof buildClaims>) {
         remitPdf: { label: claim.primaryRemitPdf, url: claim.primaryRemitPdfUrl },
         billedAmount: claim.totalBilledAmount,
         unitsBilled: claim.unitsBilled,
+        invoiceNumber: claim.invoiceNumber,
       })
     }
     if (claim.secondaryRemitDollars > 0) {
@@ -79,6 +85,7 @@ function buildRemitEvents(claims: ReturnType<typeof buildClaims>) {
         remitPdf: { label: claim.secondaryRemitPdf, url: claim.secondaryRemitPdfUrl },
         billedAmount: claim.totalBilledAmount,
         unitsBilled: claim.unitsBilled,
+        invoiceNumber: claim.invoiceNumber,
       })
     }
   }
@@ -104,6 +111,7 @@ function buildRemitEvents(claims: ReturnType<typeof buildClaims>) {
     unitsBilled: number
     remainingDollars: number
     remainingSqCm: number
+    invoiceNumber: string
   }> = []
 
   let eventIndex = 0
@@ -136,6 +144,7 @@ function buildRemitEvents(claims: ReturnType<typeof buildClaims>) {
         unitsBilled: event.unitsBilled,
         remainingDollars: round2(claim.totalBilledAmount - remittedDollars),
         remainingSqCm: round2(claim.unitsBilled - remittedSqCm),
+        invoiceNumber: event.invoiceNumber,
       })
     }
   }

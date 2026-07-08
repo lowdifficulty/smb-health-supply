@@ -5,17 +5,23 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "local": "node scripts/local-dev.mjs",
     "build": "tsc -b && vite build",
+    "build:deploy": "node scripts/build-deploy.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "check-asg-sheet": "tsx scripts/check-asg-sheet.ts",
+    "sync-med-effects-statement": "node scripts/sync-med-effects-statement.mjs",
     "setup-asg-google": "node scripts/setup-asg-google-access.mjs"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
     "@upstash/redis": "^1.38.0",
     "@vercel/kv": "^3.0.0",
     "@vercel/node": "^5.8.21",
+    "bcryptjs": "^2.4.3",
     "googleapis": "^171.4.0",
+    "jsonwebtoken": "^9.0.2",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-router-dom": "^7.17.0",
@@ -32,10 +38,11 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
+    "pdf-parse": "^2.4.5",
     "tailwindcss": "^4.3.1",
+    "tsx": "^4.21.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
-    "tsx": "^4.21.0",
     "vite": "^8.0.12",
     "xlsx": "^0.18.5"
   }

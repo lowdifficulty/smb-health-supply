@@ -41,6 +41,11 @@ function RemitDueRow({ item }: { item: AsgPaymentDueBreakdown }) {
               )}
             </p>
             <p className="text-slate-500 text-xs mt-0.5 break-words">{item.remitPdfLabel}</p>
+            {item.prepaymentCredit > 0 && (
+              <p className="text-amber-700 text-xs mt-1">
+                Includes {formatCurrency(item.prepaymentCredit)} good-faith prepayment credit
+              </p>
+            )}
           </div>
         </div>
         <div className="grid grid-cols-2 gap-2 pl-6 sm:pl-0 sm:flex sm:justify-end sm:gap-6 sm:text-right">
@@ -51,12 +56,45 @@ function RemitDueRow({ item }: { item: AsgPaymentDueBreakdown }) {
           <div>
             <p className="text-[10px] uppercase tracking-wide text-slate-400 font-medium">Owed</p>
             <p className="font-semibold text-slate-900 tabular-nums">{formatCurrency(item.amount)}</p>
+            {item.prepaymentCredit > 0 && (
+              <p className="text-[11px] text-slate-500 line-through tabular-nums">
+                {formatCurrency(item.grossAmount)}
+              </p>
+            )}
           </div>
         </div>
       </button>
 
       {open && (
-        <div className="ml-6 mr-1 mb-3 pb-3 pl-3 border-l-2 border-slate-200 space-y-2 text-xs text-slate-600">
+        <div className="ml-6 mr-1 mb-3 pb-3 pl-3 border-l-2 border-slate-200 space-y-3 text-xs text-slate-600">
+          {item.lineItems.length > 0 && (
+            <div className="overflow-x-auto">
+              <table className="w-full text-xs border-collapse min-w-[640px]">
+                <thead>
+                  <tr className="border-b border-slate-200">
+                    <th className="py-2 pr-3 text-left font-semibold text-slate-500">Patient</th>
+                    <th className="py-2 pr-3 text-left font-semibold text-slate-500">Invoice #</th>
+                    <th className="py-2 pr-3 text-right font-semibold text-slate-500">{SQCM_ABBREV}</th>
+                    <th className="py-2 text-right font-semibold text-slate-500">Owed to SMB</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {item.lineItems.map((line) => (
+                    <tr key={line.eventId} className="border-b border-slate-100 last:border-b-0">
+                      <td className="py-2 pr-3 text-slate-800 font-medium">{line.patientName}</td>
+                      <td className="py-2 pr-3 text-slate-700">{line.invoiceNumber ? `#${line.invoiceNumber}` : '—'}</td>
+                      <td className="py-2 pr-3 text-right text-slate-700">
+                        {line.remitSqCm > 0 ? line.remitSqCm.toFixed(1) : '—'}
+                      </td>
+                      <td className="py-2 text-right font-semibold text-brand-800 tabular-nums">
+                        {formatCurrency(line.amountOwedToSmb)}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2">
             <p>
               Insurance remit:{' '}
@@ -74,24 +112,7 @@ function RemitDueRow({ item }: { item: AsgPaymentDueBreakdown }) {
               Payment owed to SMB:{' '}
               <span className="font-semibold text-slate-900">{formatCurrency(item.amount)}</span>
             </p>
-            <p>
-              {item.patientCount} patient{item.patientCount !== 1 ? 's' : ''} ·{' '}
-              {item.lineCount} claim line{item.lineCount !== 1 ? 's' : ''}
-            </p>
-            {item.blendedRemitPerSqCm > 0 && (
-              <p>
-                Remit $ / {SQCM_ABBREV}:{' '}
-                <span className="font-medium text-slate-800">
-                  {formatCurrency(item.blendedRemitPerSqCm)}
-                </span>
-              </p>
-            )}
           </div>
-          {item.patientNames.length > 0 && (
-            <p className="text-slate-500 leading-relaxed break-words">
-              Patients: {item.patientNames.join(', ')}
-            </p>
-          )}
           <p>
             <span className="text-slate-500">Remit PDF: </span>
             <RemitPdfLinks links={[getRemitPdfLink(item.remitPdf)]} />

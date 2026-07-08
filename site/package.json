@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "local": "node scripts/dev-server.js"
+    "local": "node ../scripts/local-dev.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.10.4",

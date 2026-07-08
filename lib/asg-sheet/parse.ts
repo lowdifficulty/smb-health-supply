@@ -1,4 +1,10 @@
 import type { WorkBook } from 'xlsx'
+import {
+  ASG_SHEET_COLUMNS,
+  finalizeInvoiceNumbers,
+  findColumnIndex,
+  normalizeInvoiceNumber,
+} from '../../src/lib/asgInvoiceAssign.js'
 
 export function num(v: unknown): number {
   const n = Number(v)
@@ -33,6 +39,16 @@ export interface AsgClaimRow {
   leftToRemitDollars: number
   qCode: string
   qCodeBilledAmount: number
+  billedDate: string
+  primaryInvoiced: boolean
+  secondaryInvoiced: boolean
+  invoiceNumber: string
+}
+
+function parseInvoicedFlag(value: unknown): boolean {
+  return String(value ?? '')
+    .trim()
+    .toUpperCase() === 'YES'
 }
 
 export function parseAsgWorkbook(wb: WorkBook, XLSX: typeof import('xlsx')) {
@@ -56,6 +72,13 @@ export function parseAsgWorkbook(wb: WorkBook, XLSX: typeof import('xlsx')) {
   }
 
   const dataRows = rows.slice(2).filter((r) => r[0] && r[1])
+  const headers = rows[1] ?? []
+  const invoiceCol = findColumnIndex(headers, [
+    'invoice number',
+    'invoice #',
+    'primary invoice',
+    'med effects invoice',
+  ])
 
   const claims: AsgClaimRow[] = dataRows.map((r, index) => {
     const billedAmount = num(r[2])
@@ -64,6 +87,9 @@ export function parseAsgWorkbook(wb: WorkBook, XLSX: typeof import('xlsx')) {
     const secondaryRemit = num(r[22])
     const totalRemitDollars = primaryRemit + secondaryRemit
     const sheetRow = index + 2
+    const primaryInvoicedRaw = r[ASG_SHEET_COLUMNS.PRIMARY_INVOICED]
+    const explicitInvoice =
+      invoiceCol >= 0 ? normalizeInvoiceNumber(r[invoiceCol]) : normalizeInvoiceNumber(primaryInvoicedRaw)
 
     return {
       sheetRow,
@@ -86,8 +112,14 @@ export function parseAsgWorkbook(wb: WorkBook, XLSX: typeof import('xlsx')) {
       leftToRemitDollars: round2(billedAmount - totalRemitDollars),
       qCode: String(r[5] || '').trim(),
       qCodeBilledAmount: round2(num(r[3])),
+      billedDate: excelDate(r[ASG_SHEET_COLUMNS.BILLED_DATE]),
+      primaryInvoiced: parseInvoicedFlag(primaryInvoicedRaw),
+      secondaryInvoiced: parseInvoicedFlag(r[ASG_SHEET_COLUMNS.SECONDARY_INVOICED]),
+      invoiceNumber: explicitInvoice,
     }
   })
+
+  finalizeInvoiceNumbers(claims)
 
   return { claims }
 }

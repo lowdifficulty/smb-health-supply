@@ -39,6 +39,10 @@ export interface AsgClaim {
   leftToRemitDollars: number
   leftToRemitSqCm: number
   notes: string
+  billedDate: string
+  primaryInvoiced: boolean
+  secondaryInvoiced: boolean
+  invoiceNumber: string
 }
 
 /** One row per remit payment (primary or secondary), with running balance for that claim line. */
@@ -56,6 +60,7 @@ export interface AsgRemitEvent {
   unitsBilled: number
   remainingDollars: number
   remainingSqCm: number
+  invoiceNumber: string
 }
 
 export interface AsgRemitPdfGroup {
@@ -111,6 +116,31 @@ export interface AsgRemitRateSummary {
   blendedPerSqCm: number
   medianPerSqCm: number
   avgPerSqCm: number
+}
+
+/** Insurance remit totals and remaining balance for a calendar remit year (date of remit). */
+export interface AsgYearRemitBalance {
+  year: string
+  remitDollars: number
+  primaryRemitDollars: number
+  secondaryRemitDollars: number
+  remitEventCount: number
+  remainingDollars: number
+  remainingSqCm: number
+  claimLineCount: number
+}
+
+/** Med Effects vendor invoice linked to one or more insurance remit line items. */
+export interface AsgInvoiceRemitLink {
+  invoiceNumber: string
+  invoiceDate: string
+  invoiceAmount: number
+  remitEventCount: number
+  totalRemitDollars: number
+  totalRemainingDollars: number
+  patientCount: number
+  remitDates: string[]
+  remitPdfLabels: string[]
 }
 
 export interface AsgData {

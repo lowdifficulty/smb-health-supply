@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T18:48:11.872Z",
+  "generatedAt": "2026-07-07T20:05:22.096Z",
   "sourceFile": "ASG.xlsx",
   "note": "One row per remit payment. Primary remits include billed sq cm; secondary remits are dollar-only. Remaining balance is per claim line after each remit.",
   "claimCount": 236,
@@ -33,7 +33,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6556.99,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-06",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-2",
@@ -63,7 +67,11 @@
       "remitUnitsSqCm": 4,
       "leftToRemitDollars": 1342.46,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-06",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-3",
@@ -93,7 +101,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6583.29,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-06",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-4",
@@ -123,7 +135,11 @@
       "remitUnitsSqCm": 4,
       "leftToRemitDollars": 1285.33,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-06",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-5",
@@ -153,7 +169,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6584.08,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-06",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-6",
@@ -183,7 +203,11 @@
       "remitUnitsSqCm": 4,
       "leftToRemitDollars": 1285.33,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-06",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-7",
@@ -213,7 +237,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 1190.6,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-04-13",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-8",
@@ -243,7 +271,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 90719,
       "leftToRemitSqCm": 20,
-      "notes": "Duplicate remit"
+      "notes": "Duplicate remit",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-9",
@@ -273,7 +305,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 98596.3,
       "leftToRemitSqCm": 22,
-      "notes": "Non Covered services, not deemed a medical necessity"
+      "notes": "Non Covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-10",
@@ -303,7 +339,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 94114.65,
       "leftToRemitSqCm": 21,
-      "notes": "Non Covered services, not deemed a medical necessity"
+      "notes": "Non Covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-11",
@@ -333,7 +373,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 89633,
       "leftToRemitSqCm": 20,
-      "notes": "Non Covered services, not deemed a medical necessity"
+      "notes": "Non Covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-12",
@@ -363,7 +407,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 85151.35,
       "leftToRemitSqCm": 19,
-      "notes": "Non Covered services, not deemed a medical necessity"
+      "notes": "Non Covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-13",
@@ -393,7 +441,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 80669.7,
       "leftToRemitSqCm": 18,
-      "notes": "Non Covered services, not deemed a medical necessity"
+      "notes": "Non Covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-14",
@@ -423,7 +475,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 76188.05,
       "leftToRemitSqCm": 17,
-      "notes": "Non Covered services, not deemed a medical necessity"
+      "notes": "Non Covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-15",
@@ -453,7 +509,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 71706.4,
       "leftToRemitSqCm": 16,
-      "notes": "Non Covered services, not deemed a medical necessity"
+      "notes": "Non Covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-16",
@@ -483,7 +543,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 67224.75,
       "leftToRemitSqCm": 15,
-      "notes": "Non Covered services, not deemed a medical necessity"
+      "notes": "Non Covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-17",
@@ -513,7 +577,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 62743.1,
       "leftToRemitSqCm": 14,
-      "notes": "Non Covered services, not deemed a medical necessity"
+      "notes": "Non Covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-18",
@@ -543,7 +611,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 58261.45,
       "leftToRemitSqCm": 13,
-      "notes": "Non Covered services, not deemed a medical necessity"
+      "notes": "Non Covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-19",
@@ -573,7 +645,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 53779.8,
       "leftToRemitSqCm": 12,
-      "notes": "Non Covered services, not deemed a medical necessity"
+      "notes": "Non Covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-20",
@@ -603,7 +679,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 49298.15,
       "leftToRemitSqCm": 11,
-      "notes": "Non Covered services, not deemed a medical necessity"
+      "notes": "Non Covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-21",
@@ -633,7 +713,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 44816.5,
       "leftToRemitSqCm": 10,
-      "notes": "Non Covered services, not deemed a medical necessity"
+      "notes": "Non Covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-22",
@@ -663,7 +747,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 22408.25,
       "leftToRemitSqCm": 2,
-      "notes": "Non covered services, not deemed a medical necessity"
+      "notes": "Non covered services, not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-23",
@@ -693,7 +781,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 30058.26,
       "leftToRemitSqCm": 231,
-      "notes": "Not certified/eligible to be paid for procedure/service"
+      "notes": "Not certified/eligible to be paid for procedure/service",
+      "billedDate": "2026-03-27",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-24",
@@ -723,7 +815,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 20058.26,
       "leftToRemitSqCm": 231,
-      "notes": "Denied this provider was not certified/eligible to be paid for this procedure/service on this DOS"
+      "notes": "Denied this provider was not certified/eligible to be paid for this procedure/service on this DOS",
+      "billedDate": "2026-03-27",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-25",
@@ -753,7 +849,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 19837.18,
       "leftToRemitSqCm": 151,
-      "notes": "provider not eligible/certified to be paid for this procedure/service"
+      "notes": "provider not eligible/certified to be paid for this procedure/service",
+      "billedDate": "2026-04-29",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-26",
@@ -783,7 +883,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 0,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-27",
@@ -813,7 +917,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 25812.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-10-28",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-28",
@@ -843,7 +951,11 @@
       "remitUnitsSqCm": 11,
       "leftToRemitDollars": 13406.91,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-10-28",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-29",
@@ -873,7 +985,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 25812.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-10-28",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-30",
@@ -903,7 +1019,11 @@
       "remitUnitsSqCm": 11,
       "leftToRemitDollars": 13406.91,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-10-28",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-31",
@@ -933,7 +1053,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 25812.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-10-28",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-32",
@@ -963,7 +1087,11 @@
       "remitUnitsSqCm": 11,
       "leftToRemitDollars": 13406.91,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-10-28",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-33",
@@ -993,7 +1121,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 25633.88,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-10-20",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1347"
     },
     {
       "id": "asg-claim-34",
@@ -1023,7 +1155,11 @@
       "remitUnitsSqCm": 11,
       "leftToRemitDollars": 13406.91,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-10-20",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1347"
     },
     {
       "id": "asg-claim-35",
@@ -1053,7 +1189,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 24722.7,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-10-28",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-36",
@@ -1083,7 +1223,11 @@
       "remitUnitsSqCm": 11,
       "leftToRemitDollars": 12836.17,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-10-28",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-37",
@@ -1113,7 +1257,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 25889.62,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-38",
@@ -1143,7 +1291,11 @@
       "remitUnitsSqCm": 10,
       "leftToRemitDollars": 11669.24,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-39",
@@ -1173,7 +1325,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 25889.62,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-40",
@@ -1203,7 +1359,11 @@
       "remitUnitsSqCm": 10,
       "leftToRemitDollars": 11669.24,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-41",
@@ -1233,7 +1393,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 25889.62,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-42",
@@ -1263,7 +1427,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 24505.42,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-43",
@@ -1293,7 +1461,11 @@
       "remitUnitsSqCm": 13,
       "leftToRemitDollars": 15170.02,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-44",
@@ -1323,7 +1495,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 25918.05,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-45",
@@ -1353,7 +1529,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 24505.42,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-46",
@@ -1383,7 +1563,11 @@
       "remitUnitsSqCm": 5,
       "leftToRemitDollars": 5834.63,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-47",
@@ -1413,7 +1597,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 25889.62,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-48",
@@ -1443,7 +1631,11 @@
       "remitUnitsSqCm": 18,
       "leftToRemitDollars": 21004.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-49",
@@ -1473,7 +1665,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 98820.7,
       "leftToRemitSqCm": 22,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-03-04",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-50",
@@ -1503,7 +1699,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 8963.3,
       "leftToRemitSqCm": 2,
-      "notes": "Non-covered Services, not deemed a medical necessity"
+      "notes": "Non-covered Services, not deemed a medical necessity",
+      "billedDate": "2026-03-04",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-51",
@@ -1533,7 +1733,11 @@
       "remitUnitsSqCm": 8,
       "leftToRemitDollars": 9524.26,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-02-04",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1701"
     },
     {
       "id": "asg-claim-52",
@@ -1563,7 +1767,11 @@
       "remitUnitsSqCm": 64,
       "leftToRemitDollars": 1629.48,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-53",
@@ -1593,7 +1801,11 @@
       "remitUnitsSqCm": 64,
       "leftToRemitDollars": 1629.48,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-54",
@@ -1623,7 +1835,11 @@
       "remitUnitsSqCm": 64,
       "leftToRemitDollars": 18799.42,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-06",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-55",
@@ -1653,7 +1869,11 @@
       "remitUnitsSqCm": 56,
       "leftToRemitDollars": 16472.47,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-06",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-56",
@@ -1683,7 +1903,11 @@
       "remitUnitsSqCm": 56,
       "leftToRemitDollars": 16472.47,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-06",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-57",
@@ -1713,7 +1937,11 @@
       "remitUnitsSqCm": 56,
       "leftToRemitDollars": 82969,
       "leftToRemitSqCm": 0,
-      "notes": "Non-covered services, deemed not a medical necessity"
+      "notes": "Non-covered services, deemed not a medical necessity",
+      "billedDate": "2026-03-30",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-58",
@@ -1743,7 +1971,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 3600,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-06-19",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-59",
@@ -1773,7 +2005,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 99715.36,
       "leftToRemitSqCm": 82,
-      "notes": "Julia is working out usage for this patient"
+      "notes": "Julia is working out usage for this patient",
+      "billedDate": "",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-60",
@@ -1803,7 +2039,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 16946.72,
       "leftToRemitSqCm": 14,
-      "notes": "Julia is working out usage for this patient"
+      "notes": "Julia is working out usage for this patient",
+      "billedDate": "",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-61",
@@ -1833,7 +2073,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 77878.72,
       "leftToRemitSqCm": 64,
-      "notes": "Julia is working out usage for this patient"
+      "notes": "Julia is working out usage for this patient",
+      "billedDate": "",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-62",
@@ -1863,7 +2107,11 @@
       "remitUnitsSqCm": 80,
       "leftToRemitDollars": 97058.39,
       "leftToRemitSqCm": 0,
-      "notes": "Non-covered services, deemed not a medical necessity"
+      "notes": "Non-covered services, deemed not a medical necessity",
+      "billedDate": "2026-03-15",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-63",
@@ -1893,7 +2141,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 19357.12,
       "leftToRemitSqCm": 16,
-      "notes": "Non-covered services, deemed not a medical necessity"
+      "notes": "Non-covered services, deemed not a medical necessity",
+      "billedDate": "2026-03-15",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-64",
@@ -1923,7 +2175,11 @@
       "remitUnitsSqCm": 64,
       "leftToRemitDollars": 77673.09,
       "leftToRemitSqCm": 0,
-      "notes": "Non-covered services, deemed not a medical necessity"
+      "notes": "Non-covered services, deemed not a medical necessity",
+      "billedDate": "2026-03-15",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-65",
@@ -1953,7 +2209,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 97241.6,
       "leftToRemitSqCm": 80,
-      "notes": "Billed out of Tebra previously.  Paid 10/30/25"
+      "notes": "Billed out of Tebra previously.  Paid 10/30/25",
+      "billedDate": "2026-03-16",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-66",
@@ -1983,7 +2243,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 19357.12,
       "leftToRemitSqCm": 16,
-      "notes": "Billed out of Tebra previously.  Paid 10/30/25... 06/08/2026 Denial for non covered services deemed not a medical necessity"
+      "notes": "Billed out of Tebra previously.  Paid 10/30/25... 06/08/2026 Denial for non covered services deemed not a medical necessity",
+      "billedDate": "2026-03-16",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-67",
@@ -2013,7 +2277,11 @@
       "remitUnitsSqCm": 64,
       "leftToRemitDollars": 77673.09,
       "leftToRemitSqCm": 0,
-      "notes": "Non-covered services, deemed not a medical necessity"
+      "notes": "Non-covered services, deemed not a medical necessity",
+      "billedDate": "2026-03-15",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-68",
@@ -2043,7 +2311,11 @@
       "remitUnitsSqCm": 81,
       "leftToRemitDollars": 98474.89,
       "leftToRemitSqCm": 0,
-      "notes": "Non-covered services, deemed not a medical necessity"
+      "notes": "Non-covered services, deemed not a medical necessity",
+      "billedDate": "2026-03-16",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-69",
@@ -2073,7 +2345,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 66540.1,
       "leftToRemitSqCm": 55,
-      "notes": "Non-covered services, deemed not a medical necessity"
+      "notes": "Non-covered services, deemed not a medical necessity",
+      "billedDate": "2023-03-16",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-70",
@@ -2103,7 +2379,11 @@
       "remitUnitsSqCm": 85,
       "leftToRemitDollars": 97286.69,
       "leftToRemitSqCm": 0,
-      "notes": "Non-covered services, deemed not a medical necessity"
+      "notes": "Non-covered services, deemed not a medical necessity",
+      "billedDate": "2026-04-14",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-71",
@@ -2133,7 +2413,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 12554.74,
       "leftToRemitSqCm": 11,
-      "notes": "Non-covered services, deemed not a medical necessity"
+      "notes": "Non-covered services, deemed not a medical necessity",
+      "billedDate": "2026-04-14",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-72",
@@ -2163,7 +2447,11 @@
       "remitUnitsSqCm": 32,
       "leftToRemitDollars": 36739.29,
       "leftToRemitSqCm": 0,
-      "notes": "Non-covered services, deemed not a medical necessity"
+      "notes": "Non-covered services, deemed not a medical necessity",
+      "billedDate": "2026-04-14",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-73",
@@ -2193,7 +2481,11 @@
       "remitUnitsSqCm": 85,
       "leftToRemitDollars": 97286.69,
       "leftToRemitSqCm": 0,
-      "notes": "Non-covered services, deemed not a medical necessity"
+      "notes": "Non-covered services, deemed not a medical necessity",
+      "billedDate": "2026-04-14",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-74",
@@ -2223,7 +2515,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 12554.74,
       "leftToRemitSqCm": 11,
-      "notes": "4/14/25: Shows EDI accepted in Ikon, but not on file with Medicare.  Resubmitted."
+      "notes": "4/14/25: Shows EDI accepted in Ikon, but not on file with Medicare.  Resubmitted.",
+      "billedDate": "2026-04-14",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-75",
@@ -2253,7 +2549,11 @@
       "remitUnitsSqCm": 72,
       "leftToRemitDollars": 2247.27,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-05-15",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1953"
     },
     {
       "id": "asg-claim-76",
@@ -2283,7 +2583,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 9894.01,
       "leftToRemitSqCm": 72,
-      "notes": ""
+      "notes": "",
+      "billedDate": "",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-77",
@@ -2313,7 +2617,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 94485.79,
       "leftToRemitSqCm": 21,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-03-12",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-78",
@@ -2343,7 +2651,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 98596.3,
       "leftToRemitSqCm": 22,
-      "notes": "Non covered services not deemed a medical necessity"
+      "notes": "Non covered services not deemed a medical necessity",
+      "billedDate": "2026-03-12",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-79",
@@ -2373,7 +2685,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 22408.25,
       "leftToRemitSqCm": 5,
-      "notes": "Non covered services not deemed a medical necessity"
+      "notes": "Non covered services not deemed a medical necessity",
+      "billedDate": "2026-03-12",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-80",
@@ -2403,7 +2719,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 94384.77,
       "leftToRemitSqCm": 21,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-03-12",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-81",
@@ -2433,7 +2753,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 98596.3,
       "leftToRemitSqCm": 22,
-      "notes": "Non covered services not deemed a medical necessity"
+      "notes": "Non covered services not deemed a medical necessity",
+      "billedDate": "2026-03-12",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-82",
@@ -2463,7 +2787,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 22408.25,
       "leftToRemitSqCm": 5,
-      "notes": "Non covered services not deemed a medical necessity"
+      "notes": "Non covered services not deemed a medical necessity",
+      "billedDate": "2026-03-12",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-83",
@@ -2493,7 +2821,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 94502.65,
       "leftToRemitSqCm": 21,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-03-12",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-84",
@@ -2523,7 +2855,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 98596.3,
       "leftToRemitSqCm": 22,
-      "notes": "Non covered services not deemed a medical necessity"
+      "notes": "Non covered services not deemed a medical necessity",
+      "billedDate": "2026-03-12",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-85",
@@ -2553,7 +2889,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 22408.25,
       "leftToRemitSqCm": 5,
-      "notes": "Non covered services not deemed a medical necessity"
+      "notes": "Non covered services not deemed a medical necessity",
+      "billedDate": "2026-03-12",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-86",
@@ -2583,7 +2923,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 98984.3,
       "leftToRemitSqCm": 22,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-03-02",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-87",
@@ -2613,7 +2957,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 89633,
       "leftToRemitSqCm": 20,
-      "notes": "Non covered services not deemed a medical necessity"
+      "notes": "Non covered services not deemed a medical necessity",
+      "billedDate": "2026-03-02",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-88",
@@ -2643,7 +2991,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 26889.9,
       "leftToRemitSqCm": 6,
-      "notes": "Non covered services not deemed a medical necessity"
+      "notes": "Non covered services not deemed a medical necessity",
+      "billedDate": "2026-03-02",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-89",
@@ -2673,7 +3025,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 8718.1,
       "leftToRemitSqCm": 65,
-      "notes": "Denied Contractual obligation provider not certified/eligible to be paid for this procedure/service"
+      "notes": "Denied Contractual obligation provider not certified/eligible to be paid for this procedure/service",
+      "billedDate": "2026-03-02",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-90",
@@ -2703,7 +3059,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 6109.3,
       "leftToRemitSqCm": 45,
-      "notes": "Not certified/eligible to be paid for this procedure/service"
+      "notes": "Not certified/eligible to be paid for this procedure/service",
+      "billedDate": "2026-03-27",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-91",
@@ -2733,7 +3093,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 6745,
       "leftToRemitSqCm": 50,
-      "notes": "Denied Contractual Obligation, this provider was not certified/eligible to be paid for this procedure/service"
+      "notes": "Denied Contractual Obligation, this provider was not certified/eligible to be paid for this procedure/service",
+      "billedDate": "2026-04-13",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-92",
@@ -2763,7 +3127,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 6490,
       "leftToRemitSqCm": 48,
-      "notes": "Denied Contractual Obligation, this provider was not certified/eligible to paid for this procedure/service"
+      "notes": "Denied Contractual Obligation, this provider was not certified/eligible to paid for this procedure/service",
+      "billedDate": "2026-04-13",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-93",
@@ -2793,7 +3161,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 6475,
       "leftToRemitSqCm": 50,
-      "notes": "Denied this provider was not certified/eligible to be paid for this procedure/service on this DOS"
+      "notes": "Denied this provider was not certified/eligible to be paid for this procedure/service on this DOS",
+      "billedDate": "2026-03-27",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-94",
@@ -2823,7 +3195,11 @@
       "remitUnitsSqCm": 24,
       "leftToRemitDollars": 1363.1,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-18",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1594"
     },
     {
       "id": "asg-claim-95",
@@ -2853,7 +3229,11 @@
       "remitUnitsSqCm": 24,
       "leftToRemitDollars": 1363.1,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-18",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1594"
     },
     {
       "id": "asg-claim-96",
@@ -2883,7 +3263,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6621.32,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-07",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-97",
@@ -2913,7 +3297,11 @@
       "remitUnitsSqCm": 12,
       "leftToRemitDollars": 3855.98,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-07",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-98",
@@ -2943,7 +3331,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 23572.47,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-07",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-99",
@@ -2973,7 +3365,11 @@
       "remitUnitsSqCm": 12,
       "leftToRemitDollars": 3855.98,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-07",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-100",
@@ -3003,7 +3399,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6622.33,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-07",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-101",
@@ -3033,7 +3433,11 @@
       "remitUnitsSqCm": 12,
       "leftToRemitDollars": 3855.98,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-07",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-102",
@@ -3063,7 +3467,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 98780.44,
       "leftToRemitSqCm": 0,
-      "notes": "Non covered services not deemed a medical necessity"
+      "notes": "Non covered services not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-103",
@@ -3093,7 +3501,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 44816.5,
       "leftToRemitSqCm": 10,
-      "notes": "Non covered services not deemed a medical necessity"
+      "notes": "Non covered services not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-104",
@@ -3123,7 +3535,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 4481.34,
       "leftToRemitSqCm": 31,
-      "notes": "Denied contractual obligation provider not certified/eligible to be paid for this procedure/service"
+      "notes": "Denied contractual obligation provider not certified/eligible to be paid for this procedure/service",
+      "billedDate": "2026-03-02",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-105",
@@ -3153,7 +3569,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6831.87,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-106",
@@ -3183,7 +3603,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 7069.29,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-107",
@@ -3213,7 +3637,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 6747.96,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-108",
@@ -3243,7 +3671,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6426.63,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-109",
@@ -3273,7 +3705,11 @@
       "remitUnitsSqCm": 19,
       "leftToRemitDollars": 6105.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-110",
@@ -3303,7 +3739,11 @@
       "remitUnitsSqCm": 18,
       "leftToRemitDollars": 5783.96,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-111",
@@ -3333,7 +3773,11 @@
       "remitUnitsSqCm": 17,
       "leftToRemitDollars": 5462.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-112",
@@ -3363,7 +3807,11 @@
       "remitUnitsSqCm": 16,
       "leftToRemitDollars": 5141.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-113",
@@ -3393,7 +3841,11 @@
       "remitUnitsSqCm": 15,
       "leftToRemitDollars": 4819.97,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-114",
@@ -3423,7 +3875,11 @@
       "remitUnitsSqCm": 14,
       "leftToRemitDollars": 4498.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-115",
@@ -3453,7 +3909,11 @@
       "remitUnitsSqCm": 13,
       "leftToRemitDollars": 4177.31,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-116",
@@ -3483,7 +3943,11 @@
       "remitUnitsSqCm": 5,
       "leftToRemitDollars": 1606.66,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-117",
@@ -3513,7 +3977,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6831.87,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-118",
@@ -3543,7 +4011,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 7069.29,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-119",
@@ -3573,7 +4045,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 6747.96,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-120",
@@ -3603,7 +4079,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6426.63,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-121",
@@ -3633,7 +4113,11 @@
       "remitUnitsSqCm": 19,
       "leftToRemitDollars": 6105.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-122",
@@ -3663,7 +4147,11 @@
       "remitUnitsSqCm": 18,
       "leftToRemitDollars": 5783.96,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-123",
@@ -3693,7 +4181,11 @@
       "remitUnitsSqCm": 17,
       "leftToRemitDollars": 5462.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-124",
@@ -3723,7 +4215,11 @@
       "remitUnitsSqCm": 16,
       "leftToRemitDollars": 5141.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-125",
@@ -3753,7 +4249,11 @@
       "remitUnitsSqCm": 15,
       "leftToRemitDollars": 4819.97,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-126",
@@ -3783,7 +4283,11 @@
       "remitUnitsSqCm": 14,
       "leftToRemitDollars": 4498.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-127",
@@ -3813,7 +4317,11 @@
       "remitUnitsSqCm": 13,
       "leftToRemitDollars": 4177.31,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-128",
@@ -3843,7 +4351,11 @@
       "remitUnitsSqCm": 5,
       "leftToRemitDollars": 1606.66,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-11-01",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-claim-129",
@@ -3873,7 +4385,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 7562.74,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-130",
@@ -3903,7 +4419,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 6747.96,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-131",
@@ -3933,7 +4453,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6426.63,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-132",
@@ -3963,7 +4487,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 7069.29,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-133",
@@ -3993,7 +4521,11 @@
       "remitUnitsSqCm": 19,
       "leftToRemitDollars": 6105.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-134",
@@ -4023,7 +4555,11 @@
       "remitUnitsSqCm": 18,
       "leftToRemitDollars": 5783.96,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-135",
@@ -4053,7 +4589,11 @@
       "remitUnitsSqCm": 17,
       "leftToRemitDollars": 5462.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-136",
@@ -4083,7 +4623,11 @@
       "remitUnitsSqCm": 16,
       "leftToRemitDollars": 5141.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-137",
@@ -4113,7 +4657,11 @@
       "remitUnitsSqCm": 15,
       "leftToRemitDollars": 4819.97,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-138",
@@ -4143,7 +4691,11 @@
       "remitUnitsSqCm": 14,
       "leftToRemitDollars": 4498.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-139",
@@ -4173,7 +4725,11 @@
       "remitUnitsSqCm": 13,
       "leftToRemitDollars": 4177.31,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-140",
@@ -4203,7 +4759,11 @@
       "remitUnitsSqCm": 3,
       "leftToRemitDollars": 963.99,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-02",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-141",
@@ -4233,7 +4793,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 7474.53,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-142",
@@ -4263,7 +4827,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 6747.96,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-143",
@@ -4293,7 +4861,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6426.63,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-144",
@@ -4323,7 +4895,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 7069.29,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-145",
@@ -4353,7 +4929,11 @@
       "remitUnitsSqCm": 19,
       "leftToRemitDollars": 6105.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-146",
@@ -4383,7 +4963,11 @@
       "remitUnitsSqCm": 18,
       "leftToRemitDollars": 5783.96,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-147",
@@ -4413,7 +4997,11 @@
       "remitUnitsSqCm": 17,
       "leftToRemitDollars": 5462.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-148",
@@ -4443,7 +5031,11 @@
       "remitUnitsSqCm": 16,
       "leftToRemitDollars": 5141.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-149",
@@ -4473,7 +5065,11 @@
       "remitUnitsSqCm": 15,
       "leftToRemitDollars": 4819.97,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-150",
@@ -4503,7 +5099,11 @@
       "remitUnitsSqCm": 14,
       "leftToRemitDollars": 4498.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-151",
@@ -4533,7 +5133,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 7474.53,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-152",
@@ -4563,7 +5167,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 6747.96,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-153",
@@ -4593,7 +5201,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6426.63,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-154",
@@ -4623,7 +5235,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 7069.29,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-155",
@@ -4653,7 +5269,11 @@
       "remitUnitsSqCm": 19,
       "leftToRemitDollars": 6105.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-156",
@@ -4683,7 +5303,11 @@
       "remitUnitsSqCm": 18,
       "leftToRemitDollars": 5783.96,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-157",
@@ -4713,7 +5337,11 @@
       "remitUnitsSqCm": 17,
       "leftToRemitDollars": 5462.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-158",
@@ -4743,7 +5371,11 @@
       "remitUnitsSqCm": 16,
       "leftToRemitDollars": 5141.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-159",
@@ -4773,7 +5405,11 @@
       "remitUnitsSqCm": 15,
       "leftToRemitDollars": 4819.97,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-160",
@@ -4803,7 +5439,11 @@
       "remitUnitsSqCm": 14,
       "leftToRemitDollars": 4498.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-161",
@@ -4833,7 +5473,11 @@
       "remitUnitsSqCm": 13,
       "leftToRemitDollars": 4177.31,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-162",
@@ -4863,7 +5507,11 @@
       "remitUnitsSqCm": 3,
       "leftToRemitDollars": 963.99,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-03",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-claim-163",
@@ -4893,7 +5541,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6831.87,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-09",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-164",
@@ -4923,7 +5575,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 7069.29,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-09",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-165",
@@ -4953,7 +5609,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 6747.96,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-09",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-166",
@@ -4983,7 +5643,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6426.63,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-09",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-167",
@@ -5013,7 +5677,11 @@
       "remitUnitsSqCm": 19,
       "leftToRemitDollars": 6105.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-09",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-168",
@@ -5043,7 +5711,11 @@
       "remitUnitsSqCm": 18,
       "leftToRemitDollars": 5783.96,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-09",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-169",
@@ -5073,7 +5745,11 @@
       "remitUnitsSqCm": 17,
       "leftToRemitDollars": 5462.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-09",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-170",
@@ -5103,7 +5779,11 @@
       "remitUnitsSqCm": 16,
       "leftToRemitDollars": 5141.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-09",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-171",
@@ -5133,7 +5813,11 @@
       "remitUnitsSqCm": 15,
       "leftToRemitDollars": 4819.97,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-09",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-172",
@@ -5163,7 +5847,11 @@
       "remitUnitsSqCm": 14,
       "leftToRemitDollars": 4498.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-09",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-173",
@@ -5193,7 +5881,11 @@
       "remitUnitsSqCm": 13,
       "leftToRemitDollars": 4177.31,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-09",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-174",
@@ -5223,7 +5915,11 @@
       "remitUnitsSqCm": 5,
       "leftToRemitDollars": 1606.66,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-09",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-175",
@@ -5253,7 +5949,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 6831.87,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-10",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-176",
@@ -5283,7 +5983,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 7069.29,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-10",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-177",
@@ -5313,7 +6017,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": 6747.96,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-10",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-178",
@@ -5343,7 +6051,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 9741.36,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-10",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-179",
@@ -5373,7 +6085,11 @@
       "remitUnitsSqCm": 19,
       "leftToRemitDollars": 9420.02,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-10",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-180",
@@ -5403,7 +6119,11 @@
       "remitUnitsSqCm": 18,
       "leftToRemitDollars": 9098.69,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-10",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-181",
@@ -5433,7 +6153,11 @@
       "remitUnitsSqCm": 17,
       "leftToRemitDollars": 8777.36,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-10",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-182",
@@ -5463,7 +6187,11 @@
       "remitUnitsSqCm": 16,
       "leftToRemitDollars": 5141.3,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-10",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-183",
@@ -5493,7 +6221,11 @@
       "remitUnitsSqCm": 15,
       "leftToRemitDollars": 4819.97,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-10",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-184",
@@ -5523,7 +6255,11 @@
       "remitUnitsSqCm": 14,
       "leftToRemitDollars": 4498.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-10",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-185",
@@ -5553,7 +6289,11 @@
       "remitUnitsSqCm": 13,
       "leftToRemitDollars": 4177.31,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-10",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-186",
@@ -5583,7 +6323,11 @@
       "remitUnitsSqCm": 5,
       "leftToRemitDollars": 1606.66,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-10",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-187",
@@ -5613,7 +6357,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 89802.9,
       "leftToRemitSqCm": 0,
-      "notes": "Non-covered services because this is not deemed a medical necessity"
+      "notes": "Non-covered services because this is not deemed a medical necessity",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-188",
@@ -5643,7 +6391,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 98596.3,
       "leftToRemitSqCm": 22,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-189",
@@ -5673,7 +6425,11 @@
       "remitUnitsSqCm": 21,
       "leftToRemitDollars": -69609.23,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1809"
     },
     {
       "id": "asg-claim-190",
@@ -5703,7 +6459,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 89633,
       "leftToRemitSqCm": 20,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-191",
@@ -5733,7 +6493,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 85151.35,
       "leftToRemitSqCm": 19,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-192",
@@ -5763,7 +6527,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 80669.7,
       "leftToRemitSqCm": 18,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-193",
@@ -5793,7 +6561,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 76188.05,
       "leftToRemitSqCm": 17,
-      "notes": "Duplicate"
+      "notes": "Duplicate",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-194",
@@ -5823,7 +6595,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 71706.4,
       "leftToRemitSqCm": 16,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-195",
@@ -5853,7 +6629,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 17926.6,
       "leftToRemitSqCm": 4,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-03-25",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-196",
@@ -5883,7 +6663,11 @@
       "remitUnitsSqCm": 15,
       "leftToRemitDollars": 67416.68,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-03-30",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-197",
@@ -5913,7 +6697,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 2550,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-04-13",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-198",
@@ -5943,7 +6731,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 2550,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-04-13",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-199",
@@ -5973,7 +6765,11 @@
       "remitUnitsSqCm": 16,
       "leftToRemitDollars": 5372.37,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-10-20",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": true,
+      "invoiceNumber": "1347"
     },
     {
       "id": "asg-claim-200",
@@ -6003,7 +6799,11 @@
       "remitUnitsSqCm": 16,
       "leftToRemitDollars": 19696.05,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-07",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-201",
@@ -6033,7 +6833,11 @@
       "remitUnitsSqCm": 16,
       "leftToRemitDollars": 19696.05,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-07",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-202",
@@ -6063,7 +6867,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 9945.78,
       "leftToRemitSqCm": 75,
-      "notes": "Denied Contractual Obligation, this provider was not certified/eligible to be paid for this procedure/service"
+      "notes": "Denied Contractual Obligation, this provider was not certified/eligible to be paid for this procedure/service",
+      "billedDate": "2026-04-16",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-203",
@@ -6093,7 +6901,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 9994.92,
       "leftToRemitSqCm": 75,
-      "notes": "Denied this provider was not certified/eligible to be paid for this procedure/service on this DOS"
+      "notes": "Denied this provider was not certified/eligible to be paid for this procedure/service on this DOS",
+      "billedDate": "2026-03-27",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-204",
@@ -6123,7 +6935,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 9945.78,
       "leftToRemitSqCm": 75,
-      "notes": "Not certified/eligible to be paid for this procedure/service"
+      "notes": "Not certified/eligible to be paid for this procedure/service",
+      "billedDate": "2026-04-13",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-205",
@@ -6153,7 +6969,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 9945.78,
       "leftToRemitSqCm": 75,
-      "notes": "not certified/eligible to be paid for this procedure/service"
+      "notes": "not certified/eligible to be paid for this procedure/service",
+      "billedDate": "2026-03-27",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-206",
@@ -6183,7 +7003,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 9945.78,
       "leftToRemitSqCm": 75,
-      "notes": "Contractual Obligation, claim/service not covered by this payer/contractor"
+      "notes": "Contractual Obligation, claim/service not covered by this payer/contractor",
+      "billedDate": "2026-04-13",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-207",
@@ -6213,7 +7037,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 3581.24,
       "leftToRemitSqCm": 16,
-      "notes": "Denied Claim/Service not covered by this payer/contractor"
+      "notes": "Denied Claim/Service not covered by this payer/contractor",
+      "billedDate": "2026-03-27",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-208",
@@ -6243,7 +7071,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 3476.24,
       "leftToRemitSqCm": 16,
-      "notes": "claim not covered by this payer/contractor"
+      "notes": "claim not covered by this payer/contractor",
+      "billedDate": "2026-03-27",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-209",
@@ -6273,7 +7105,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 2756.45,
       "leftToRemitSqCm": 16,
-      "notes": "claim not covered by this payer/contractor"
+      "notes": "claim not covered by this payer/contractor",
+      "billedDate": "2026-03-27",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-210",
@@ -6303,7 +7139,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 1268.84,
       "leftToRemitSqCm": 6,
-      "notes": "Denied Contractual Obligation, claim/service not covered by this payer/contractor"
+      "notes": "Denied Contractual Obligation, claim/service not covered by this payer/contractor",
+      "billedDate": "2026-04-13",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-211",
@@ -6333,7 +7173,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 1268.84,
       "leftToRemitSqCm": 6,
-      "notes": "claim not covered by this payer/contractor"
+      "notes": "claim not covered by this payer/contractor",
+      "billedDate": "2026-03-27",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-212",
@@ -6363,7 +7207,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 1112.18,
       "leftToRemitSqCm": 6,
-      "notes": "VOID, sent in under wrong date."
+      "notes": "VOID, sent in under wrong date.",
+      "billedDate": "2026-03-27",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-213",
@@ -6393,7 +7241,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 1112.18,
       "leftToRemitSqCm": 6,
-      "notes": "Denied Claim/Service not covered by this payer/contractor"
+      "notes": "Denied Claim/Service not covered by this payer/contractor",
+      "billedDate": "2026-03-27",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-214",
@@ -6423,7 +7275,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 732.96,
       "leftToRemitSqCm": 16,
-      "notes": "claim not covered by this payer/contractor"
+      "notes": "claim not covered by this payer/contractor",
+      "billedDate": "2026-04-13",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-215",
@@ -6453,7 +7309,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 0,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-216",
@@ -6483,7 +7343,11 @@
       "remitUnitsSqCm": 6,
       "leftToRemitDollars": 2540.84,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-09",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-claim-217",
@@ -6513,7 +7377,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 25867.42,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-10-23",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1347"
     },
     {
       "id": "asg-claim-218",
@@ -6543,7 +7411,11 @@
       "remitUnitsSqCm": 18,
       "leftToRemitDollars": 21004.64,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-10-23",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1347"
     },
     {
       "id": "asg-claim-219",
@@ -6573,7 +7445,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 98984.3,
       "leftToRemitSqCm": 22,
-      "notes": "Denied due to Advantage Plan"
+      "notes": "Denied due to Advantage Plan",
+      "billedDate": "2026-04-16",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-220",
@@ -6603,7 +7479,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 80669.7,
       "leftToRemitSqCm": 18,
-      "notes": "claim not covered by this payer/contractor"
+      "notes": "claim not covered by this payer/contractor",
+      "billedDate": "2026-04-16",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-221",
@@ -6633,7 +7513,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 98984.3,
       "leftToRemitSqCm": 22,
-      "notes": "Denied due to Advantage Plan"
+      "notes": "Denied due to Advantage Plan",
+      "billedDate": "2026-04-16",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-222",
@@ -6663,7 +7547,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 80669.7,
       "leftToRemitSqCm": 18,
-      "notes": "claim not covered by this payer/contractor"
+      "notes": "claim not covered by this payer/contractor",
+      "billedDate": "2026-04-16",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-223",
@@ -6693,7 +7581,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 98984.3,
       "leftToRemitSqCm": 22,
-      "notes": "Denied due to Advantage Plan"
+      "notes": "Denied due to Advantage Plan",
+      "billedDate": "2026-04-16",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-224",
@@ -6723,7 +7615,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 80669.7,
       "leftToRemitSqCm": 18,
-      "notes": "claim not covered by this payer/contractor"
+      "notes": "claim not covered by this payer/contractor",
+      "billedDate": "2026-04-16",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-225",
@@ -6753,7 +7649,11 @@
       "remitUnitsSqCm": 22,
       "leftToRemitDollars": 25906.32,
       "leftToRemitSqCm": 0,
-      "notes": "Amount not in shoreline"
+      "notes": "Amount not in shoreline",
+      "billedDate": "2025-12-18",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1594"
     },
     {
       "id": "asg-claim-226",
@@ -6783,7 +7683,11 @@
       "remitUnitsSqCm": 18,
       "leftToRemitDollars": 21004.64,
       "leftToRemitSqCm": 0,
-      "notes": "Amount not in shoreline"
+      "notes": "Amount not in shoreline",
+      "billedDate": "2025-12-18",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1594"
     },
     {
       "id": "asg-claim-227",
@@ -6813,7 +7717,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 23533.2,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-07",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-228",
@@ -6843,7 +7751,11 @@
       "remitUnitsSqCm": 4,
       "leftToRemitDollars": 4667.7,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-07",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-229",
@@ -6873,7 +7785,11 @@
       "remitUnitsSqCm": 20,
       "leftToRemitDollars": 23533.57,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-07",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-230",
@@ -6903,7 +7819,11 @@
       "remitUnitsSqCm": 4,
       "leftToRemitDollars": 4667.7,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-01-07",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-claim-231",
@@ -6933,7 +7853,11 @@
       "remitUnitsSqCm": 6,
       "leftToRemitDollars": 2958.29,
       "leftToRemitSqCm": 0,
-      "notes": "Declined on Shorelne"
+      "notes": "Declined on Shorelne",
+      "billedDate": "2025-12-20",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1625"
     },
     {
       "id": "asg-claim-232",
@@ -6963,7 +7887,11 @@
       "remitUnitsSqCm": 6,
       "leftToRemitDollars": 3150.17,
       "leftToRemitSqCm": 0,
-      "notes": "Declined on Shoreline"
+      "notes": "Declined on Shoreline",
+      "billedDate": "2025-12-11",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1576"
     },
     {
       "id": "asg-claim-233",
@@ -6993,7 +7921,11 @@
       "remitUnitsSqCm": 0,
       "leftToRemitDollars": 12582,
       "leftToRemitSqCm": 6,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2025-12-20",
+      "primaryInvoiced": false,
+      "secondaryInvoiced": false,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-claim-234",
@@ -7023,7 +7955,11 @@
       "remitUnitsSqCm": 64,
       "leftToRemitDollars": 19587.15,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-02-04",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1701"
     },
     {
       "id": "asg-claim-235",
@@ -7053,7 +7989,11 @@
       "remitUnitsSqCm": 64,
       "leftToRemitDollars": 19587.15,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-02-04",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1701"
     },
     {
       "id": "asg-claim-236",
@@ -7083,7 +8023,11 @@
       "remitUnitsSqCm": 64,
       "leftToRemitDollars": 16979.38,
       "leftToRemitSqCm": 0,
-      "notes": ""
+      "notes": "",
+      "billedDate": "2026-02-04",
+      "primaryInvoiced": true,
+      "secondaryInvoiced": false,
+      "invoiceNumber": "1701"
     }
   ],
   "remitEvents": [
@@ -7103,7 +8047,8 @@
       "billedAmount": 98984.3,
       "unitsBilled": 22,
       "remainingDollars": 98780.44,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-235",
@@ -7121,7 +8066,8 @@
       "billedAmount": 90200.18,
       "unitsBilled": 20,
       "remainingDollars": 89802.9,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-238",
@@ -7139,7 +8085,8 @@
       "billedAmount": 67449.15,
       "unitsBilled": 15,
       "remainingDollars": 67416.68,
-      "remainingSqCm": 15
+      "remainingSqCm": 15,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-49",
@@ -7157,7 +8104,8 @@
       "billedAmount": 97469.9,
       "unitsBilled": 85,
       "remainingDollars": 97286.69,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-50",
@@ -7175,7 +8123,8 @@
       "billedAmount": 36882.88,
       "unitsBilled": 32,
       "remainingDollars": 36739.29,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-51",
@@ -7193,7 +8142,8 @@
       "billedAmount": 97469.9,
       "unitsBilled": 85,
       "remainingDollars": 97286.69,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-44",
@@ -7211,7 +8161,8 @@
       "billedAmount": 83149.76,
       "unitsBilled": 56,
       "remainingDollars": 82969,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-45",
@@ -7229,7 +8180,8 @@
       "billedAmount": 97241.6,
       "unitsBilled": 80,
       "remainingDollars": 97058.39,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-46",
@@ -7247,7 +8199,8 @@
       "billedAmount": 77836.48,
       "unitsBilled": 64,
       "remainingDollars": 77673.09,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-47",
@@ -7265,7 +8218,8 @@
       "billedAmount": 77836.48,
       "unitsBilled": 64,
       "remainingDollars": 77673.09,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-48",
@@ -7283,7 +8237,8 @@
       "billedAmount": 98791.42,
       "unitsBilled": 81,
       "remainingDollars": 98474.89,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-68",
@@ -7301,7 +8256,8 @@
       "billedAmount": 98984.3,
       "unitsBilled": 22,
       "remainingDollars": 98830.28,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-234",
@@ -7319,7 +8275,8 @@
       "billedAmount": 90200.18,
       "unitsBilled": 20,
       "remainingDollars": 89883.65,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-52",
@@ -7337,7 +8294,8 @@
       "billedAmount": 9894.01,
       "unitsBilled": 72,
       "remainingDollars": 2247.27,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1953"
     },
     {
       "id": "asg-remit-13",
@@ -7355,7 +8313,8 @@
       "billedAmount": 1881.6,
       "unitsBilled": 0,
       "remainingDollars": 1190.6,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": ""
     },
     {
       "id": "asg-remit-237",
@@ -7373,7 +8332,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": -69609.23,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1809"
     },
     {
       "id": "asg-remit-236",
@@ -7391,7 +8351,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 24505.42,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1809"
     },
     {
       "id": "asg-remit-36",
@@ -7409,7 +8370,8 @@
       "billedAmount": 36165.2,
       "unitsBilled": 8,
       "remainingDollars": 9524.26,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1701"
     },
     {
       "id": "asg-remit-254",
@@ -7427,7 +8389,8 @@
       "billedAmount": 89951.68,
       "unitsBilled": 64,
       "remainingDollars": 19587.15,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1701"
     },
     {
       "id": "asg-remit-255",
@@ -7445,7 +8408,8 @@
       "billedAmount": 89951.68,
       "unitsBilled": 64,
       "remainingDollars": 19587.15,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1701"
     },
     {
       "id": "asg-remit-256",
@@ -7463,7 +8427,8 @@
       "billedAmount": 77878.72,
       "unitsBilled": 64,
       "remainingDollars": 16979.38,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1701"
     },
     {
       "id": "asg-remit-2",
@@ -7481,7 +8446,8 @@
       "billedAmount": 93618.6,
       "unitsBilled": 20,
       "remainingDollars": 6556.99,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-6",
@@ -7499,7 +8465,8 @@
       "billedAmount": 89945,
       "unitsBilled": 20,
       "remainingDollars": 6583.29,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-10",
@@ -7517,7 +8484,8 @@
       "billedAmount": 89945,
       "unitsBilled": 20,
       "remainingDollars": 6584.08,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-58",
@@ -7535,7 +8503,8 @@
       "billedAmount": 90021,
       "unitsBilled": 20,
       "remainingDollars": 6621.32,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-60",
@@ -7553,7 +8522,8 @@
       "billedAmount": 53779.8,
       "unitsBilled": 12,
       "remainingDollars": 3855.98,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-63",
@@ -7571,7 +8541,8 @@
       "billedAmount": 53779.8,
       "unitsBilled": 12,
       "remainingDollars": 3855.98,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-65",
@@ -7589,7 +8560,8 @@
       "billedAmount": 90021,
       "unitsBilled": 20,
       "remainingDollars": 6622.33,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-67",
@@ -7607,7 +8579,8 @@
       "billedAmount": 53779.8,
       "unitsBilled": 12,
       "remainingDollars": 3855.98,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-38",
@@ -7625,7 +8598,8 @@
       "billedAmount": 89567.68,
       "unitsBilled": 64,
       "remainingDollars": 1629.48,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-40",
@@ -7643,7 +8617,8 @@
       "billedAmount": 89567.68,
       "unitsBilled": 64,
       "remainingDollars": 1629.48,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-4",
@@ -7661,7 +8636,8 @@
       "billedAmount": 18723.72,
       "unitsBilled": 4,
       "remainingDollars": 1342.46,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-8",
@@ -7679,7 +8655,8 @@
       "billedAmount": 17926.6,
       "unitsBilled": 4,
       "remainingDollars": 1285.33,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-12",
@@ -7697,7 +8674,8 @@
       "billedAmount": 17926.6,
       "unitsBilled": 4,
       "remainingDollars": 1285.33,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-54",
@@ -7715,7 +8693,8 @@
       "billedAmount": 50238,
       "unitsBilled": 24,
       "remainingDollars": 1363.1,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1594"
     },
     {
       "id": "asg-remit-56",
@@ -7733,7 +8712,8 @@
       "billedAmount": 50238,
       "unitsBilled": 24,
       "remainingDollars": 1363.1,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1594"
     },
     {
       "id": "asg-remit-42",
@@ -7751,7 +8731,8 @@
       "billedAmount": 75702,
       "unitsBilled": 56,
       "remainingDollars": 16472.47,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-61",
@@ -7769,7 +8750,8 @@
       "billedAmount": 90021,
       "unitsBilled": 20,
       "remainingDollars": 23572.47,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-241",
@@ -7787,7 +8769,8 @@
       "billedAmount": 75216.88,
       "unitsBilled": 16,
       "remainingDollars": 19696.05,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-1",
@@ -7805,7 +8788,8 @@
       "billedAmount": 93618.6,
       "unitsBilled": 20,
       "remainingDollars": 24252.44,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-5",
@@ -7823,7 +8807,8 @@
       "billedAmount": 89945,
       "unitsBilled": 20,
       "remainingDollars": 23526.72,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-9",
@@ -7841,7 +8826,8 @@
       "billedAmount": 89945,
       "unitsBilled": 20,
       "remainingDollars": 23527.35,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-41",
@@ -7859,7 +8845,8 @@
       "billedAmount": 86472,
       "unitsBilled": 64,
       "remainingDollars": 18799.42,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-43",
@@ -7877,7 +8864,8 @@
       "billedAmount": 75702,
       "unitsBilled": 56,
       "remainingDollars": 16472.47,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-57",
@@ -7895,7 +8883,8 @@
       "billedAmount": 90021,
       "unitsBilled": 20,
       "remainingDollars": 23572.47,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-64",
@@ -7913,7 +8902,8 @@
       "billedAmount": 90021,
       "unitsBilled": 20,
       "remainingDollars": 23573.28,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-242",
@@ -7931,7 +8921,8 @@
       "billedAmount": 75216.88,
       "unitsBilled": 16,
       "remainingDollars": 19696.05,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-248",
@@ -7949,7 +8940,8 @@
       "billedAmount": 89955,
       "unitsBilled": 20,
       "remainingDollars": 23533.2,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-250",
@@ -7967,7 +8959,8 @@
       "billedAmount": 89955,
       "unitsBilled": 20,
       "remainingDollars": 23533.57,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-3",
@@ -7985,7 +8978,8 @@
       "billedAmount": 18723.72,
       "unitsBilled": 4,
       "remainingDollars": 4875.24,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-7",
@@ -8003,7 +8997,8 @@
       "billedAmount": 17926.6,
       "unitsBilled": 4,
       "remainingDollars": 4667.7,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-11",
@@ -8021,7 +9016,8 @@
       "billedAmount": 17926.6,
       "unitsBilled": 4,
       "remainingDollars": 4667.7,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-59",
@@ -8039,7 +9035,8 @@
       "billedAmount": 53779.8,
       "unitsBilled": 12,
       "remainingDollars": 14003.1,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-62",
@@ -8057,7 +9054,8 @@
       "billedAmount": 53779.8,
       "unitsBilled": 12,
       "remainingDollars": 14003.1,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-66",
@@ -8075,7 +9073,8 @@
       "billedAmount": 53779.8,
       "unitsBilled": 12,
       "remainingDollars": 14003.1,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-249",
@@ -8093,7 +9092,8 @@
       "billedAmount": 17926.6,
       "unitsBilled": 4,
       "remainingDollars": 4667.7,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-251",
@@ -8111,7 +9111,8 @@
       "billedAmount": 17926.6,
       "unitsBilled": 4,
       "remainingDollars": 4667.7,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1654"
     },
     {
       "id": "asg-remit-53",
@@ -8129,7 +9130,8 @@
       "billedAmount": 50238,
       "unitsBilled": 24,
       "remainingDollars": 11297.02,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1594"
     },
     {
       "id": "asg-remit-55",
@@ -8147,7 +9149,8 @@
       "billedAmount": 50238,
       "unitsBilled": 24,
       "remainingDollars": 11297.02,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1594"
     },
     {
       "id": "asg-remit-246",
@@ -8165,7 +9168,8 @@
       "billedAmount": 98984.3,
       "unitsBilled": 22,
       "remainingDollars": 25906.32,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1594"
     },
     {
       "id": "asg-remit-247",
@@ -8183,7 +9187,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 21004.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1594"
     },
     {
       "id": "asg-remit-252",
@@ -8201,7 +9206,8 @@
       "billedAmount": 12582,
       "unitsBilled": 6,
       "remainingDollars": 2958.29,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1625"
     },
     {
       "id": "asg-remit-119",
@@ -8219,7 +9225,8 @@
       "billedAmount": 99244.3,
       "unitsBilled": 22,
       "remainingDollars": 7562.74,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-121",
@@ -8237,7 +9244,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 6747.96,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-123",
@@ -8255,7 +9263,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 6426.63,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-125",
@@ -8273,7 +9282,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 7069.29,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-127",
@@ -8291,7 +9301,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 6105.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-129",
@@ -8309,7 +9320,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 5783.96,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-131",
@@ -8327,7 +9339,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 5462.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-133",
@@ -8345,7 +9358,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 5141.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-135",
@@ -8363,7 +9377,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 4819.97,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-137",
@@ -8381,7 +9396,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 4498.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-139",
@@ -8399,7 +9415,8 @@
       "billedAmount": 58261.45,
       "unitsBilled": 13,
       "remainingDollars": 4177.31,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-141",
@@ -8417,7 +9434,8 @@
       "billedAmount": 13444.95,
       "unitsBilled": 3,
       "remainingDollars": 963.99,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-143",
@@ -8435,7 +9453,8 @@
       "billedAmount": 99392.3,
       "unitsBilled": 22,
       "remainingDollars": 7474.53,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-145",
@@ -8453,7 +9472,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 6747.96,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-147",
@@ -8471,7 +9491,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 6426.63,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-149",
@@ -8489,7 +9510,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 7069.29,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-151",
@@ -8507,7 +9529,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 6105.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-153",
@@ -8525,7 +9548,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 5783.96,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-155",
@@ -8543,7 +9567,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 5462.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-157",
@@ -8561,7 +9586,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 5141.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-159",
@@ -8579,7 +9605,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 4819.97,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-161",
@@ -8597,7 +9624,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 4498.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-163",
@@ -8615,7 +9643,8 @@
       "billedAmount": 99392.3,
       "unitsBilled": 22,
       "remainingDollars": 7474.53,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-165",
@@ -8633,7 +9662,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 6747.96,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-167",
@@ -8651,7 +9681,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 6426.63,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-169",
@@ -8669,7 +9700,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 7069.29,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-171",
@@ -8687,7 +9719,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 6105.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-173",
@@ -8705,7 +9738,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 5783.96,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-175",
@@ -8723,7 +9757,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 5462.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-177",
@@ -8741,7 +9776,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 5141.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-179",
@@ -8759,7 +9795,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 4819.97,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-181",
@@ -8777,7 +9814,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 4498.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-183",
@@ -8795,7 +9833,8 @@
       "billedAmount": 58261.45,
       "unitsBilled": 13,
       "remainingDollars": 4177.31,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-185",
@@ -8813,7 +9852,8 @@
       "billedAmount": 13444.95,
       "unitsBilled": 3,
       "remainingDollars": 963.99,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-187",
@@ -8831,7 +9871,8 @@
       "billedAmount": 90429,
       "unitsBilled": 20,
       "remainingDollars": 6831.87,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-189",
@@ -8849,7 +9890,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 7069.29,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-191",
@@ -8867,7 +9909,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 6747.96,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-193",
@@ -8885,7 +9928,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 6426.63,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-195",
@@ -8903,7 +9947,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 6105.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-197",
@@ -8921,7 +9966,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 5783.96,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-199",
@@ -8939,7 +9985,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 5462.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-201",
@@ -8957,7 +10004,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 5141.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-203",
@@ -8975,7 +10023,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 4819.97,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-205",
@@ -8993,7 +10042,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 4498.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-207",
@@ -9011,7 +10061,8 @@
       "billedAmount": 58261.45,
       "unitsBilled": 13,
       "remainingDollars": 4177.31,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-209",
@@ -9029,7 +10080,8 @@
       "billedAmount": 22408.25,
       "unitsBilled": 5,
       "remainingDollars": 1606.66,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-210",
@@ -9047,7 +10099,8 @@
       "billedAmount": 90429,
       "unitsBilled": 20,
       "remainingDollars": 23823.15,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-211",
@@ -9065,7 +10118,8 @@
       "billedAmount": 90429,
       "unitsBilled": 20,
       "remainingDollars": 6831.87,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-213",
@@ -9083,7 +10137,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 7069.29,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-215",
@@ -9101,7 +10156,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 6747.96,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-217",
@@ -9119,7 +10175,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 9741.36,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-219",
@@ -9137,7 +10194,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 9420.02,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-221",
@@ -9155,7 +10213,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 9098.69,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-223",
@@ -9173,7 +10232,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 8777.36,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-225",
@@ -9191,7 +10251,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 5141.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-227",
@@ -9209,7 +10270,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 4819.97,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-229",
@@ -9227,7 +10289,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 4498.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-231",
@@ -9245,7 +10308,8 @@
       "billedAmount": 58261.45,
       "unitsBilled": 13,
       "remainingDollars": 4177.31,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-233",
@@ -9263,7 +10327,8 @@
       "billedAmount": 22408.25,
       "unitsBilled": 5,
       "remainingDollars": 1606.66,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-243",
@@ -9281,7 +10346,8 @@
       "billedAmount": 11183.68,
       "unitsBilled": 6,
       "remainingDollars": 2540.84,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-24",
@@ -9299,7 +10365,8 @@
       "billedAmount": 98956.3,
       "unitsBilled": 22,
       "remainingDollars": 25889.62,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-26",
@@ -9317,7 +10384,8 @@
       "billedAmount": 98956.3,
       "unitsBilled": 22,
       "remainingDollars": 25889.62,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-28",
@@ -9335,7 +10403,8 @@
       "billedAmount": 98956.3,
       "unitsBilled": 22,
       "remainingDollars": 25889.62,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-31",
@@ -9353,7 +10422,8 @@
       "billedAmount": 99004.3,
       "unitsBilled": 22,
       "remainingDollars": 25918.05,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-34",
@@ -9371,7 +10441,8 @@
       "billedAmount": 98956.3,
       "unitsBilled": 22,
       "remainingDollars": 25889.62,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-37",
@@ -9389,7 +10460,8 @@
       "billedAmount": 89567.68,
       "unitsBilled": 64,
       "remainingDollars": 19503.1,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-39",
@@ -9407,7 +10479,8 @@
       "billedAmount": 89567.68,
       "unitsBilled": 64,
       "remainingDollars": 19503.1,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-118",
@@ -9425,7 +10498,8 @@
       "billedAmount": 99244.3,
       "unitsBilled": 22,
       "remainingDollars": 26197.2,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-142",
@@ -9443,7 +10517,8 @@
       "billedAmount": 99392.3,
       "unitsBilled": 22,
       "remainingDollars": 26157,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-162",
@@ -9461,7 +10536,8 @@
       "billedAmount": 99392.3,
       "unitsBilled": 22,
       "remainingDollars": 26157,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-186",
@@ -9479,7 +10555,8 @@
       "billedAmount": 90429,
       "unitsBilled": 20,
       "remainingDollars": 23823.15,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-25",
@@ -9497,7 +10574,8 @@
       "billedAmount": 44816.5,
       "unitsBilled": 10,
       "remainingDollars": 11669.24,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-27",
@@ -9515,7 +10593,8 @@
       "billedAmount": 44816.5,
       "unitsBilled": 10,
       "remainingDollars": 11669.24,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-29",
@@ -9533,7 +10612,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 24505.42,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-30",
@@ -9551,7 +10631,8 @@
       "billedAmount": 58261.45,
       "unitsBilled": 13,
       "remainingDollars": 15170.02,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-32",
@@ -9569,7 +10650,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 24505.42,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-33",
@@ -9587,7 +10669,8 @@
       "billedAmount": 22408.25,
       "unitsBilled": 5,
       "remainingDollars": 5834.63,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-35",
@@ -9605,7 +10688,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 21004.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-120",
@@ -9623,7 +10707,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 24505.42,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-122",
@@ -9641,7 +10726,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 23338.49,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-124",
@@ -9659,7 +10745,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 25672.34,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-126",
@@ -9677,7 +10764,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 22171.57,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-128",
@@ -9695,7 +10783,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 21004.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-130",
@@ -9713,7 +10802,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 19837.72,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-132",
@@ -9731,7 +10821,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 18670.79,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-134",
@@ -9749,7 +10840,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 17503.87,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-136",
@@ -9767,7 +10859,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 16336.94,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-138",
@@ -9785,7 +10878,8 @@
       "billedAmount": 58261.45,
       "unitsBilled": 13,
       "remainingDollars": 15170.02,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-140",
@@ -9803,7 +10897,8 @@
       "billedAmount": 13444.95,
       "unitsBilled": 3,
       "remainingDollars": 3500.77,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-144",
@@ -9821,7 +10916,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 24505.42,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-146",
@@ -9839,7 +10935,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 23338.49,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-148",
@@ -9857,7 +10954,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 25672.34,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-150",
@@ -9875,7 +10973,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 22171.57,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-152",
@@ -9893,7 +10992,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 21004.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-154",
@@ -9911,7 +11011,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 19837.72,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-156",
@@ -9929,7 +11030,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 18670.79,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-158",
@@ -9947,7 +11049,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 17503.87,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-160",
@@ -9965,7 +11068,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 16336.94,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-164",
@@ -9983,7 +11087,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 24505.42,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-166",
@@ -10001,7 +11106,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 23338.49,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-168",
@@ -10019,7 +11125,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 25672.34,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-170",
@@ -10037,7 +11144,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 22171.57,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-172",
@@ -10055,7 +11163,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 21004.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-174",
@@ -10073,7 +11182,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 19837.72,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-176",
@@ -10091,7 +11201,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 18670.79,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-178",
@@ -10109,7 +11220,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 17503.87,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-180",
@@ -10127,7 +11239,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 16336.94,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-182",
@@ -10145,7 +11258,8 @@
       "billedAmount": 58261.45,
       "unitsBilled": 13,
       "remainingDollars": 15170.02,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-184",
@@ -10163,7 +11277,8 @@
       "billedAmount": 13444.95,
       "unitsBilled": 3,
       "remainingDollars": 3500.77,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1532"
     },
     {
       "id": "asg-remit-188",
@@ -10181,7 +11296,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 25672.34,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-190",
@@ -10199,7 +11315,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 24505.42,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-192",
@@ -10217,7 +11334,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 23338.49,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-194",
@@ -10235,7 +11353,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 22171.57,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-196",
@@ -10253,7 +11372,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 21004.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-198",
@@ -10271,7 +11391,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 19837.72,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-200",
@@ -10289,7 +11410,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 18670.79,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-202",
@@ -10307,7 +11429,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 17503.87,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-204",
@@ -10325,7 +11448,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 16336.94,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-206",
@@ -10343,7 +11467,8 @@
       "billedAmount": 58261.45,
       "unitsBilled": 13,
       "remainingDollars": 15170.02,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-208",
@@ -10361,7 +11486,8 @@
       "billedAmount": 22408.25,
       "unitsBilled": 5,
       "remainingDollars": 5834.63,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-212",
@@ -10379,7 +11505,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 25672.34,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-214",
@@ -10397,7 +11524,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 24505.42,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-216",
@@ -10415,7 +11543,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 26653.22,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-218",
@@ -10433,7 +11562,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 25486.29,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-220",
@@ -10451,7 +11581,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 24319.37,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-222",
@@ -10469,7 +11600,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 23152.44,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-224",
@@ -10487,7 +11619,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 18670.79,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-226",
@@ -10505,7 +11638,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 17503.87,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-228",
@@ -10523,7 +11657,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 16336.94,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-230",
@@ -10541,7 +11676,8 @@
       "billedAmount": 58261.45,
       "unitsBilled": 13,
       "remainingDollars": 15170.02,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-232",
@@ -10559,7 +11695,8 @@
       "billedAmount": 22408.25,
       "unitsBilled": 5,
       "remainingDollars": 5834.63,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1575"
     },
     {
       "id": "asg-remit-253",
@@ -10577,7 +11714,8 @@
       "billedAmount": 11183.68,
       "unitsBilled": 6,
       "remainingDollars": 3150.17,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1576"
     },
     {
       "id": "asg-remit-240",
@@ -10595,7 +11733,8 @@
       "billedAmount": 75050.88,
       "unitsBilled": 16,
       "remainingDollars": 5372.37,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1347"
     },
     {
       "id": "asg-remit-71",
@@ -10613,7 +11752,8 @@
       "billedAmount": 90429,
       "unitsBilled": 20,
       "remainingDollars": 6831.87,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-95",
@@ -10631,7 +11771,8 @@
       "billedAmount": 90429,
       "unitsBilled": 20,
       "remainingDollars": 6831.87,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-73",
@@ -10649,7 +11790,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 7069.29,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-75",
@@ -10667,7 +11809,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 6747.96,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-77",
@@ -10685,7 +11828,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 6426.63,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-79",
@@ -10703,7 +11847,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 6105.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-81",
@@ -10721,7 +11866,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 5783.96,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-83",
@@ -10739,7 +11885,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 5462.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-85",
@@ -10757,7 +11904,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 5141.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-87",
@@ -10775,7 +11923,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 4819.97,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-89",
@@ -10793,7 +11942,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 4498.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-91",
@@ -10811,7 +11961,8 @@
       "billedAmount": 58261.45,
       "unitsBilled": 13,
       "remainingDollars": 4177.31,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-93",
@@ -10829,7 +11980,8 @@
       "billedAmount": 22408.25,
       "unitsBilled": 5,
       "remainingDollars": 1606.66,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-97",
@@ -10847,7 +11999,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 7069.29,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-99",
@@ -10865,7 +12018,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 6747.96,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-101",
@@ -10883,7 +12037,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 6426.63,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-103",
@@ -10901,7 +12056,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 6105.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-105",
@@ -10919,7 +12075,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 5783.96,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-107",
@@ -10937,7 +12094,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 5462.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-109",
@@ -10955,7 +12113,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 5141.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-111",
@@ -10973,7 +12132,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 4819.97,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-113",
@@ -10991,7 +12151,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 4498.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-115",
@@ -11009,7 +12170,8 @@
       "billedAmount": 58261.45,
       "unitsBilled": 13,
       "remainingDollars": 4177.31,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-117",
@@ -11027,7 +12189,8 @@
       "billedAmount": 22408.25,
       "unitsBilled": 5,
       "remainingDollars": 1606.66,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-70",
@@ -11045,7 +12208,8 @@
       "billedAmount": 90429,
       "unitsBilled": 20,
       "remainingDollars": 23823.15,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-94",
@@ -11063,7 +12227,8 @@
       "billedAmount": 90429,
       "unitsBilled": 20,
       "remainingDollars": 23823.15,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-72",
@@ -11081,7 +12246,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 25672.34,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-74",
@@ -11099,7 +12265,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 24505.42,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-76",
@@ -11117,7 +12284,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 23338.49,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-78",
@@ -11135,7 +12303,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 22171.57,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-80",
@@ -11153,7 +12322,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 21004.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-82",
@@ -11171,7 +12341,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 19837.72,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-84",
@@ -11189,7 +12360,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 18670.79,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-88",
@@ -11207,7 +12379,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 16336.94,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-90",
@@ -11225,7 +12398,8 @@
       "billedAmount": 58261.45,
       "unitsBilled": 13,
       "remainingDollars": 15170.02,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-92",
@@ -11243,7 +12417,8 @@
       "billedAmount": 22408.25,
       "unitsBilled": 5,
       "remainingDollars": 5834.63,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-96",
@@ -11261,7 +12436,8 @@
       "billedAmount": 98596.3,
       "unitsBilled": 22,
       "remainingDollars": 25672.34,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-98",
@@ -11279,7 +12455,8 @@
       "billedAmount": 94114.65,
       "unitsBilled": 21,
       "remainingDollars": 24505.42,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-100",
@@ -11297,7 +12474,8 @@
       "billedAmount": 89633,
       "unitsBilled": 20,
       "remainingDollars": 23338.49,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-102",
@@ -11315,7 +12493,8 @@
       "billedAmount": 85151.35,
       "unitsBilled": 19,
       "remainingDollars": 22171.57,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-104",
@@ -11333,7 +12512,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 21004.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-106",
@@ -11351,7 +12531,8 @@
       "billedAmount": 76188.05,
       "unitsBilled": 17,
       "remainingDollars": 19837.72,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-108",
@@ -11369,7 +12550,8 @@
       "billedAmount": 71706.4,
       "unitsBilled": 16,
       "remainingDollars": 18670.79,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-110",
@@ -11387,7 +12569,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 17503.87,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-112",
@@ -11405,7 +12588,8 @@
       "billedAmount": 62743.1,
       "unitsBilled": 14,
       "remainingDollars": 16336.94,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-114",
@@ -11423,7 +12607,8 @@
       "billedAmount": 58261.45,
       "unitsBilled": 13,
       "remainingDollars": 15170.02,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-116",
@@ -11441,7 +12626,8 @@
       "billedAmount": 22408.25,
       "unitsBilled": 5,
       "remainingDollars": 5834.63,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-86",
@@ -11459,7 +12645,8 @@
       "billedAmount": 67224.75,
       "unitsBilled": 15,
       "remainingDollars": 17503.87,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-14",
@@ -11477,7 +12664,8 @@
       "billedAmount": 98659.53,
       "unitsBilled": 21,
       "remainingDollars": 25812.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-16",
@@ -11495,7 +12683,8 @@
       "billedAmount": 98659.53,
       "unitsBilled": 21,
       "remainingDollars": 25812.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-18",
@@ -11513,7 +12702,8 @@
       "billedAmount": 98659.53,
       "unitsBilled": 21,
       "remainingDollars": 25812.3,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-22",
@@ -11531,7 +12721,8 @@
       "billedAmount": 94474.65,
       "unitsBilled": 21,
       "remainingDollars": 24722.7,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-19",
@@ -11549,7 +12740,8 @@
       "billedAmount": 51490.23,
       "unitsBilled": 11,
       "remainingDollars": 13406.91,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-15",
@@ -11567,7 +12759,8 @@
       "billedAmount": 51490.23,
       "unitsBilled": 11,
       "remainingDollars": 13406.91,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-17",
@@ -11585,7 +12778,8 @@
       "billedAmount": 51490.23,
       "unitsBilled": 11,
       "remainingDollars": 13406.91,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-23",
@@ -11603,7 +12797,8 @@
       "billedAmount": 49298.15,
       "unitsBilled": 11,
       "remainingDollars": 12836.17,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1381"
     },
     {
       "id": "asg-remit-244",
@@ -11621,7 +12816,8 @@
       "billedAmount": 98918.3,
       "unitsBilled": 22,
       "remainingDollars": 25867.42,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1347"
     },
     {
       "id": "asg-remit-245",
@@ -11639,7 +12835,8 @@
       "billedAmount": 80669.7,
       "unitsBilled": 18,
       "remainingDollars": 21004.64,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1347"
     },
     {
       "id": "asg-remit-20",
@@ -11657,7 +12854,8 @@
       "billedAmount": 98479.53,
       "unitsBilled": 21,
       "remainingDollars": 25633.88,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1347"
     },
     {
       "id": "asg-remit-21",
@@ -11675,7 +12873,8 @@
       "billedAmount": 51490.23,
       "unitsBilled": 11,
       "remainingDollars": 13406.91,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1347"
     },
     {
       "id": "asg-remit-239",
@@ -11693,7 +12892,8 @@
       "billedAmount": 75050.88,
       "unitsBilled": 16,
       "remainingDollars": 19534.67,
-      "remainingSqCm": 0
+      "remainingSqCm": 0,
+      "invoiceNumber": "1347"
     }
   ]
 }

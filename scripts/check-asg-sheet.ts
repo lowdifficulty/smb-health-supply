@@ -1,4 +1,4 @@
-import { runAsgSheetCheck } from '../api/lib/asg-sheet/runCheck.js'
+import { runAsgSheetCheck } from '../lib/asg-sheet/runCheck.js'
 
 const saveBaseline = process.argv.includes('--save-baseline')
 

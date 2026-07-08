@@ -13,6 +13,7 @@ import {
   groupRemitEventsByPdf,
 } from '../data/asgData'
 import { useAsgDataMeta } from '../context/AsgDataContext'
+import { getConfiguredLineOwedMap, getLineAmountOwedToSmb } from '../lib/asgRemitOwed'
 import type { AsgRemitPdfGroup, AsgRemitEvent } from '../types/asg'
 import { nextSortDirection, sortRows, type SortDirection } from '../lib/sortTable'
 
@@ -66,12 +67,18 @@ function formatDosRange(earliest: string, latest: string): string {
   return `${formatDate(earliest)} – ${formatDate(latest)}`
 }
 
-function RemitDetailRow({ row }: { row: AsgRemitEvent }) {
+function RemitDetailRow({
+  row,
+  amountOwed,
+}: {
+  row: AsgRemitEvent
+  amountOwed: number
+}) {
   const rate = getRemitDollarsPerSqCm(row)
   return (
     <tr className="border-b border-slate-100 bg-slate-50/80">
       <td className="px-2 py-2 border-r border-slate-100" />
-      <td className="px-3 py-2 whitespace-nowrap border-r border-slate-100 text-slate-800 font-medium pl-6">
+      <td className="px-3 py-2 whitespace-nowrap border-r border-slate-100 text-slate-800 font-medium">
         {row.patientName}
       </td>
       <td className="px-3 py-2 whitespace-nowrap border-r border-slate-100 text-slate-700">
@@ -89,15 +96,26 @@ function RemitDetailRow({ row }: { row: AsgRemitEvent }) {
       <td className="px-3 py-2 whitespace-nowrap border-r border-slate-100 text-right text-slate-700">
         {rate !== null ? formatCurrency(rate) : '—'}
       </td>
+      <td className="px-3 py-2 whitespace-nowrap border-r border-slate-100 text-slate-700 font-medium">
+        {row.invoiceNumber ? `#${row.invoiceNumber}` : '—'}
+      </td>
+      <td className="px-3 py-2 whitespace-nowrap border-r border-slate-100 text-right font-semibold text-brand-800">
+        {amountOwed > 0 ? formatCurrency(amountOwed) : '—'}
+      </td>
       <td className="px-3 py-2 whitespace-nowrap border-r border-slate-100 text-right text-slate-600">
         {formatCurrency(row.remainingDollars)}
       </td>
-      <td className="px-3 py-2 text-slate-400">—</td>
     </tr>
   )
 }
 
-function RemitDetailMobile({ row }: { row: AsgRemitEvent }) {
+function RemitDetailMobile({
+  row,
+  amountOwed,
+}: {
+  row: AsgRemitEvent
+  amountOwed: number
+}) {
   const rate = getRemitDollarsPerSqCm(row)
   return (
     <div className="px-4 py-3 bg-slate-50/90 border-t border-slate-100 text-xs">
@@ -120,8 +138,29 @@ function RemitDetailMobile({ row }: { row: AsgRemitEvent }) {
           <p className="text-[10px] uppercase tracking-wide text-slate-400">Remaining</p>
           <p className="text-slate-700 tabular-nums">{formatCurrency(row.remainingDollars)}</p>
         </div>
+        <div>
+          <p className="text-[10px] uppercase tracking-wide text-slate-400">Invoice #</p>
+          <p className="text-slate-700">{row.invoiceNumber ? `#${row.invoiceNumber}` : '—'}</p>
+        </div>
+        <div>
+          <p className="text-[10px] uppercase tracking-wide text-slate-400">Owed to SMB</p>
+          <p className="font-semibold text-brand-800 tabular-nums">
+            {amountOwed > 0 ? formatCurrency(amountOwed) : '—'}
+          </p>
+        </div>
+        <div>
+          <p className="text-[10px] uppercase tracking-wide text-slate-400">Remaining</p>
+          <p className="text-slate-700 tabular-nums">{formatCurrency(row.remainingDollars)}</p>
+        </div>
       </div>
     </div>
+  )
+}
+
+function sumGroupOwed(group: AsgRemitPdfGroup, configuredOwed: Map<string, number>): number {
+  return group.events.reduce(
+    (sum, event) => sum + getLineAmountOwedToSmb(event, configuredOwed),
+    0,
   )
 }
 
@@ -129,10 +168,12 @@ function RemitPdfMobileCard({
   group,
   expanded,
   onToggle,
+  configuredOwed,
 }: {
   group: AsgRemitPdfGroup
   expanded: boolean
   onToggle: () => void
+  configuredOwed: Map<string, number>
 }) {
   return (
     <div className="border-b border-slate-100 last:border-b-0">
@@ -160,6 +201,13 @@ function RemitPdfMobileCard({
             <p className="text-[11px] text-slate-400 mt-1">
               {group.lineCount} line{group.lineCount !== 1 ? 's' : ''} · {group.patientCount} patient
               {group.patientCount !== 1 ? 's' : ''}
+              {(() => {
+                const numbers = [...new Set(group.events.map((event) => event.invoiceNumber).filter(Boolean))]
+                if (numbers.length === 0) return null
+                return numbers.length === 1
+                  ? ` · Invoice #${numbers[0]}`
+                  : ` · Invoices ${numbers.map((num) => `#${num}`).join(', ')}`
+              })()}
             </p>
           </div>
           <span className="text-slate-400 text-xs shrink-0 mt-1" aria-hidden>
@@ -186,16 +234,23 @@ function RemitPdfMobileCard({
             </p>
           </div>
           <div>
-            <p className="text-[10px] uppercase tracking-wide text-slate-400 font-medium">
-              Remit ({SQCM_ABBREV})
-            </p>
-            <p className="text-slate-700 mt-0.5">
-              {group.totalRemitSqCm > 0 ? group.totalRemitSqCm.toFixed(1) : '—'}
+            <p className="text-[10px] uppercase tracking-wide text-slate-400 font-medium">Owed to SMB</p>
+            <p className="font-semibold text-brand-800 tabular-nums mt-0.5">
+              {sumGroupOwed(group, configuredOwed) > 0
+                ? formatCurrency(sumGroupOwed(group, configuredOwed))
+                : '—'}
             </p>
           </div>
         </div>
       </button>
-      {expanded && group.events.map((event) => <RemitDetailMobile key={event.id} row={event} />)}
+      {expanded &&
+        group.events.map((event) => (
+          <RemitDetailMobile
+            key={event.id}
+            row={event}
+            amountOwed={getLineAmountOwedToSmb(event, configuredOwed)}
+          />
+        ))}
     </div>
   )
 }
@@ -218,6 +273,7 @@ export default function AsgDataView() {
   const totals = getAsgTotals()
   const remitEvents = getAsgRemitEvents()
   const rateSummaries = getRemitRateSummariesForYears(['2025', '2026'])
+  const configuredOwed = useMemo(() => getConfiguredLineOwedMap(remitEvents), [remitEvents, ready])
 
   const filteredEvents = useMemo(() => {
     const q = search.trim().toLowerCase()
@@ -227,7 +283,8 @@ export default function AsgDataView() {
         row.patientName.toLowerCase().includes(q) ||
         row.dos.includes(q) ||
         row.dateOfRemit.includes(q) ||
-        row.remitPdf.label.toLowerCase().includes(q),
+        row.remitPdf.label.toLowerCase().includes(q) ||
+        row.invoiceNumber.includes(q),
     )
   }, [remitEvents, search])
 
@@ -368,7 +425,7 @@ export default function AsgDataView() {
           type="search"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          placeholder="Search patient or date…"
+          placeholder="Search patient, invoice, or date…"
           className="input w-full sm:max-w-xs"
         />
         <div className="flex gap-2 md:hidden">
@@ -403,6 +460,7 @@ export default function AsgDataView() {
               group={group}
               expanded={expandedBatches.has(group.id)}
               onToggle={() => toggleBatch(group.id)}
+              configuredOwed={configuredOwed}
             />
           ))
         )}
@@ -410,16 +468,13 @@ export default function AsgDataView() {
 
       <section className="hidden md:block bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm">
         <div className="overflow-x-auto table-scroll-x scroll-hint">
-          <table className="w-full text-xs border-collapse min-w-[1000px]">
+          <table className="w-full text-xs border-collapse min-w-[1180px]">
             <thead>
               <tr className="bg-slate-100 border-b border-slate-200">
                 <th className="w-8 px-2 py-2.5 border-r border-slate-200" aria-label="Expand" />
-                <SortableTh
-                  label="Remit PDF"
-                  active={sortKey === 'pdfLabel'}
-                  direction={sortDir}
-                  onSort={() => handleSort('pdfLabel')}
-                />
+                <th className="px-3 py-2.5 font-semibold text-left text-slate-600 border-r border-slate-200 whitespace-nowrap">
+                  Patient / Remit PDF
+                </th>
                 <SortableTh
                   label="Date of Service"
                   active={sortKey === 'dos'}
@@ -445,18 +500,21 @@ export default function AsgDataView() {
                 <th className="px-3 py-2.5 font-semibold text-right text-slate-600 border-r border-slate-200 whitespace-nowrap">
                   Remit $ / {SQCM_ABBREV}
                 </th>
-                <th className="px-3 py-2.5 font-semibold text-right text-slate-600 border-r border-slate-200 whitespace-nowrap">
-                  Remaining ($)
+                <th className="px-3 py-2.5 font-semibold text-left text-slate-600 border-r border-slate-200 whitespace-nowrap">
+                  Invoice #
                 </th>
-                <th className="px-3 py-2.5 font-semibold text-left text-slate-600 whitespace-nowrap">
-                  Patients
+                <th className="px-3 py-2.5 font-semibold text-right text-slate-600 border-r border-slate-200 whitespace-nowrap">
+                  Owed to SMB
+                </th>
+                <th className="px-3 py-2.5 font-semibold text-right text-slate-600 whitespace-nowrap">
+                  Remaining ($)
                 </th>
               </tr>
             </thead>
             <tbody>
               {pdfGroups.length === 0 ? (
                 <tr>
-                  <td colSpan={9} className="px-6 py-12 text-center text-slate-500">
+                  <td colSpan={11} className="px-6 py-12 text-center text-slate-500">
                     No matching remits.
                   </td>
                 </tr>
@@ -515,16 +573,35 @@ export default function AsgDataView() {
                         <td className="px-3 py-2 whitespace-nowrap border-r border-slate-100 text-right text-slate-700 font-medium">
                           {group.totalUnitsBilled > 0 ? formatCurrency(group.blendedRemitPerSqCm) : '—'}
                         </td>
-                        <td className="px-3 py-2 whitespace-nowrap border-r border-slate-100 text-right text-slate-600 font-semibold">
-                          {formatCurrency(group.totalRemainingDollars)}
+                        <td className="px-3 py-2 whitespace-nowrap border-r border-slate-100 text-slate-700">
+                          {(() => {
+                            const numbers = [
+                              ...new Set(
+                                group.events.map((event) => event.invoiceNumber).filter(Boolean),
+                              ),
+                            ]
+                            if (numbers.length === 0) return '—'
+                            if (numbers.length === 1) return `#${numbers[0]}`
+                            return numbers.map((num) => `#${num}`).join(', ')
+                          })()}
                         </td>
-                        <td className="px-3 py-2 text-slate-700">
-                          {group.patientCount} patient{group.patientCount !== 1 ? 's' : ''}
+                        <td className="px-3 py-2 whitespace-nowrap border-r border-slate-100 text-right font-semibold text-brand-800">
+                          {(() => {
+                            const owed = sumGroupOwed(group, configuredOwed)
+                            return owed > 0 ? formatCurrency(owed) : '—'
+                          })()}
+                        </td>
+                        <td className="px-3 py-2 whitespace-nowrap text-right text-slate-600 font-semibold">
+                          {formatCurrency(group.totalRemainingDollars)}
                         </td>
                       </tr>
                       {expanded &&
                         group.events.map((event) => (
-                          <RemitDetailRow key={event.id} row={event} />
+                          <RemitDetailRow
+                            key={event.id}
+                            row={event}
+                            amountOwed={getLineAmountOwedToSmb(event, configuredOwed)}
+                          />
                         ))}
                     </Fragment>
                   )

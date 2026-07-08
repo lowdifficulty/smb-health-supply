@@ -1,4 +1,4 @@
-const { clearAuthCookie, sendJson } = require("../../lib/auth");
+const { clearAuthCookie, sendJson } = require("../../lib/onboarding/auth");
 
 module.exports = async function handler(req, res) {
   if (req.method !== "POST") {

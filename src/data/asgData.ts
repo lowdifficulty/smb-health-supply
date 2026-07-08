@@ -8,9 +8,12 @@ import type {
   AsgRemitType,
   AsgPatientRemitGroup,
   AsgRemitPdfGroup,
+  AsgYearRemitBalance,
+  AsgInvoiceRemitLink,
 } from '../types/asg'
 import raw from './asgData.json'
 import { getRemitPdfUrl } from '../lib/asgRemitPdf'
+import { MED_EFFECTS_INVOICES } from './medEffectsInvoices'
 
 let activeData = raw as AsgData
 
@@ -135,6 +138,71 @@ export function getRemitRateSummary(year: string, remitType: AsgRemitType): AsgR
 export function getRemitRateSummariesForYears(years: string[]): AsgRemitRateSummary[] {
   const types: AsgRemitType[] = ['primary', 'secondary']
   return years.flatMap((year) => types.map((remitType) => getRemitRateSummary(year, remitType)))
+}
+
+/** Remit received and remaining insurance balance grouped by date-of-remit year. */
+export function getRemitBalanceByRemitYear(year: string): AsgYearRemitBalance {
+  const events = getAsgRemitEvents().filter((e) => e.dateOfRemit.startsWith(year))
+  const claims = getAsgClaims().filter((c) => c.dos.startsWith(year))
+  const primaryEvents = events.filter((e) => e.remitType === 'primary')
+  const secondaryEvents = events.filter((e) => e.remitType === 'secondary')
+
+  return {
+    year,
+    remitDollars: round2(events.reduce((s, e) => s + e.remitAmountDollars, 0)),
+    primaryRemitDollars: round2(primaryEvents.reduce((s, e) => s + e.remitAmountDollars, 0)),
+    secondaryRemitDollars: round2(secondaryEvents.reduce((s, e) => s + e.remitAmountDollars, 0)),
+    remitEventCount: events.length,
+    remainingDollars: round2(claims.reduce((s, c) => s + c.leftToRemitDollars, 0)),
+    remainingSqCm: round2(claims.reduce((s, c) => s + c.leftToRemitSqCm, 0)),
+    claimLineCount: claims.length,
+  }
+}
+
+export function getRemitBalancesForYears(years: string[]): AsgYearRemitBalance[] {
+  return years.map((year) => getRemitBalanceByRemitYear(year))
+}
+
+const medEffectsInvoiceByNumber = new Map(
+  MED_EFFECTS_INVOICES.map((invoice) => [invoice.number, invoice]),
+)
+
+/** Group insurance remit lines by linked Med Effects invoice number. */
+export function groupRemitEventsByInvoice(events?: AsgRemitEvent[]): AsgInvoiceRemitLink[] {
+  const list = events ?? getAsgRemitEvents()
+  const byInvoice = new Map<string, AsgRemitEvent[]>()
+
+  for (const event of list) {
+    if (!event.invoiceNumber) continue
+    const group = byInvoice.get(event.invoiceNumber) ?? []
+    group.push(event)
+    byInvoice.set(event.invoiceNumber, group)
+  }
+
+  return [...byInvoice.entries()]
+    .map(([invoiceNumber, invoiceEvents]) => {
+      const vendorInvoice = medEffectsInvoiceByNumber.get(invoiceNumber)
+      const patientNames = new Set(invoiceEvents.map((event) => event.patientName))
+      const remitPdfLabels = [...new Set(invoiceEvents.map((event) => event.remitPdf.label).filter(Boolean))].sort()
+      const remitDates = [...new Set(invoiceEvents.map((event) => event.dateOfRemit))].sort()
+
+      return {
+        invoiceNumber,
+        invoiceDate: vendorInvoice?.date ?? '',
+        invoiceAmount: vendorInvoice?.amount ?? 0,
+        remitEventCount: invoiceEvents.length,
+        totalRemitDollars: round2(invoiceEvents.reduce((sum, event) => sum + event.remitAmountDollars, 0)),
+        totalRemainingDollars: round2(invoiceEvents.reduce((sum, event) => sum + event.remainingDollars, 0)),
+        patientCount: patientNames.size,
+        remitDates,
+        remitPdfLabels,
+      }
+    })
+    .sort((a, b) => {
+      const dateCmp = b.invoiceDate.localeCompare(a.invoiceDate)
+      if (dateCmp !== 0) return dateCmp
+      return b.invoiceNumber.localeCompare(a.invoiceNumber)
+    })
 }
 
 export function groupRemitEventsByPdf(events: AsgRemitEvent[]): AsgRemitPdfGroup[] {

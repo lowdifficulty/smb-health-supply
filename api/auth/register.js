@@ -4,8 +4,8 @@ const {
   setAuthCookie,
   sendJson,
   readJsonBody
-} = require("../../lib/auth");
-const { findUserByEmail, createUser } = require("../../lib/db");
+} = require("../../lib/onboarding/auth");
+const { findUserByEmail, createUser } = require("../../lib/onboarding/db");
 
 module.exports = async function handler(req, res) {
   if (req.method !== "POST") {

@@ -103,6 +103,9 @@ export default function AsgPatientPanel({
                       <span className="text-amber-700">
                         Remaining: {formatCurrency(event.remainingDollars)} · {event.remainingSqCm.toFixed(1)} {SQCM_ABBREV}
                       </span>
+                      {event.invoiceNumber && (
+                        <span className="text-slate-600">Invoice #{event.invoiceNumber}</span>
+                      )}
                     </div>
                     {event.remitPdf.label && (
                       <div className="mt-2">

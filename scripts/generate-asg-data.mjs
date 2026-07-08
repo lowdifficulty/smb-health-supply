@@ -1,6 +1,12 @@
 import XLSX from 'xlsx'
 import fs from 'fs'
 import path from 'path'
+import {
+  ASG_SHEET_COLUMNS,
+  finalizeInvoiceNumbers,
+  findColumnIndex,
+  normalizeInvoiceNumber,
+} from './lib/asg-invoice-assign.mjs'
 
 const resolvedXlsxPath = process.env.ASG_XLSX_PATH
   ? process.env.ASG_XLSX_PATH
@@ -31,9 +37,22 @@ function latestDate(...dates) {
   return valid.sort().pop()
 }
 
+function parseInvoicedFlag(value) {
+  return String(value ?? '')
+    .trim()
+    .toUpperCase() === 'YES'
+}
+
 const wb = XLSX.readFile(resolvedXlsxPath, { cellStyles: true })
 const sheet = wb.Sheets['ASG']
 const rows = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: '' })
+const headers = rows[1] ?? []
+const invoiceCol = findColumnIndex(headers, [
+  'invoice number',
+  'invoice #',
+  'primary invoice',
+  'med effects invoice',
+])
 const dataRows = rows.slice(2).filter((r) => r[0] && r[1])
 
 const COL_PRIMARY_PDF = 18
@@ -63,6 +82,9 @@ const claims = dataRows.map((r, index) => {
   const sheetRow = index + 2
   const primaryRemitPdf = String(r[COL_PRIMARY_PDF] || '').trim()
   const secondaryRemitPdf = String(r[COL_SECONDARY_PDF] || '').trim()
+  const primaryInvoicedRaw = r[ASG_SHEET_COLUMNS.PRIMARY_INVOICED]
+  const explicitInvoice =
+    invoiceCol >= 0 ? normalizeInvoiceNumber(r[invoiceCol]) : normalizeInvoiceNumber(primaryInvoicedRaw)
 
   return {
     id: `asg-claim-${index + 1}`,
@@ -93,8 +115,14 @@ const claims = dataRows.map((r, index) => {
     leftToRemitDollars: leftDollars,
     leftToRemitSqCm: leftUnits,
     notes: String(r[16] || '').trim(),
+    billedDate: excelDate(r[ASG_SHEET_COLUMNS.BILLED_DATE]),
+    primaryInvoiced: parseInvoicedFlag(primaryInvoicedRaw),
+    secondaryInvoiced: parseInvoicedFlag(r[ASG_SHEET_COLUMNS.SECONDARY_INVOICED]),
+    invoiceNumber: explicitInvoice,
   }
 })
+
+finalizeInvoiceNumbers(claims)
 
 const rawEvents = []
 
@@ -111,6 +139,7 @@ for (const claim of claims) {
       remitPdf: { label: claim.primaryRemitPdf, url: claim.primaryRemitPdfUrl },
       billedAmount: claim.totalBilledAmount,
       unitsBilled: claim.unitsBilled,
+      invoiceNumber: claim.invoiceNumber,
     })
   }
   if (claim.secondaryRemitDollars > 0) {
@@ -125,6 +154,7 @@ for (const claim of claims) {
       remitPdf: { label: claim.secondaryRemitPdf, url: claim.secondaryRemitPdfUrl },
       billedAmount: claim.totalBilledAmount,
       unitsBilled: claim.unitsBilled,
+      invoiceNumber: claim.invoiceNumber,
     })
   }
 }
@@ -167,6 +197,7 @@ for (const claim of claims) {
       unitsBilled: event.unitsBilled,
       remainingDollars: round2(claim.totalBilledAmount - remittedDollars),
       remainingSqCm: round2(claim.unitsBilled - remittedSqCm),
+      invoiceNumber: event.invoiceNumber,
     })
   }
 }

@@ -1,0 +1,9 @@
+api/cron/**
+site/lib/**
+site/scripts/**
+site/node_modules/**
+site/.data/**
+site/wp-content/plugins/**
+site/wp-content/themes/**
+site/wp-includes/**
+deploy/**

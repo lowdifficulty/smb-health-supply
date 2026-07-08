@@ -1,5 +1,5 @@
-const { verifyToken, getTokenFromRequest, sendJson } = require("../../lib/auth");
-const { findUserById } = require("../../lib/db");
+const { verifyToken, getTokenFromRequest, sendJson } = require("../../lib/onboarding/auth");
+const { findUserById } = require("../../lib/onboarding/db");
 
 module.exports = async function handler(req, res) {
   if (req.method !== "GET") {

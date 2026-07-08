@@ -3,8 +3,8 @@ const {
   getTokenFromRequest,
   sendJson,
   readJsonBody
-} = require("../lib/auth");
-const { findUserById, getProgress, saveProgress } = require("../lib/db");
+} = require("../lib/onboarding/auth");
+const { findUserById, getProgress, saveProgress } = require("../lib/onboarding/db");
 
 async function requireUser(req, res) {
   const token = getTokenFromRequest(req);
